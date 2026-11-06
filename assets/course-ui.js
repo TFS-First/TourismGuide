@@ -1,13 +1,20 @@
 (() => {
-  const questionsUrl = new URL('./course-questions.json', document.currentScript.src);
+  const questionsUrl = new URL('./course-questions.js', document.currentScript.src);
   const addSelfTests = async () => {
     const quiz = document.querySelector('#quiz > details.course-fold > .course-fold-body');
     const match = location.pathname.match(/\/(history|graeco-roman|islamic-history|modern-history)\/(lecture-\d+)\.html$/);
     if (!quiz || !match) return;
     try {
-      const response = await fetch(questionsUrl);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const bank = await response.json();
+      if (!window.__tourismCourseQuestions) {
+        await new Promise((resolve, reject) => {
+          const script = document.createElement('script');
+          script.src = questionsUrl.href;
+          script.onload = resolve;
+          script.onerror = () => reject(new Error('تعذر تحميل بنك الأسئلة'));
+          document.head.append(script);
+        });
+      }
+      const bank = window.__tourismCourseQuestions;
       const entry = bank[`${match[1]}/${match[2]}`];
       if (!entry?.trueFalse?.length || !entry?.essay?.length) return;
 
@@ -60,6 +67,10 @@
       quiz.append(truthSection, essaySection);
     } catch (error) {
       console.error('تعذر تحميل أسئلة المحاضرة:', error);
+      const warning = document.createElement('p');
+      warning.className = 'course-question-feedback';
+      warning.textContent = 'تعذر تحميل أسئلة صح أو خطأ والمقال. تأكد من وجود مجلد assets كاملًا بجوار ملفات المواد، ثم افتح الصفحة مجددًا.';
+      quiz.append(warning);
     }
   };
   const revealHash = () => {

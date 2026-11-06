@@ -19,8 +19,12 @@ python3 -m http.server 4173 --bind 127.0.0.1
 ```
 
 افتح http://127.0.0.1:4173/ بعد بدء الخادم.
-`npm run build` يولّد `index.html` من `portal.html`، ويولّد `ancient-egyptian-language/index.html` و`assets/app.js` و`assets/app.css` من `src/`. لا تعدّل الملفات المولّدة مباشرة.
+`npm run build` يولّد `index.html` من `portal.html`، ويولّد `ancient-egyptian-language/index.html` و`assets/app.js` و`assets/app.css` من `src/`، كما يولّد `assets/course-questions.js` من `assets/course-questions.json` كي تعمل الأسئلة عند فتح ملفات HTML محليًا. لا تعدّل الملفات المولّدة مباشرة.
 GitHub Pages ينشر الملفات المولدة المرفوعة على `main`، ولا يحتاج خادم Node في الإنتاج.
+
+### فتح المحاضرات من الجهاز
+
+حمّل أو استنسخ مستودع `TourismGuide` كاملًا مع مجلد `assets/`، ثم افتح صفحة المحاضرة من مجلدها، مثل `history/lecture-01.html`. يحمل الملف `assets/course-questions.js` بنك صح أو خطأ والأسئلة المقالية مباشرة عند فتح HTML عبر `file://`؛ لا يكفي نسخ ملف المحاضرة وحده. مجلد `Tourism 2026` القديم تابع لمستودع `Tourism2026` المنفصل، ولا يتحدث تلقائيًا من `TourismGuide`.
 
 ## أين أعدّل؟
 
