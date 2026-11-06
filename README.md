@@ -2,7 +2,7 @@
 
 الموقع العام: https://tfs-first.github.io/TourismGuide/
 
-هذه نسخة مستقلة من بوابة المواد. الصفحة الرئيسية مصدرها `portal.html` وتولّد في `index.html` عبر `npm run build`. تطبيق اللغة المصرية القديمة مصدره `src/` ويولّد في `ancient-egyptian-language/index.html`. مواد التاريخ في `history/` و`graeco-roman/` و`islamic-history/` و`modern-history/`. صفحة `spanish-language/` تعرض مادة الإسبانية وصورة مشاركتها، ودروسها قيد التجهيز. رابط التطبيق القديم `https://tfs-first.github.io/Tourism2026/` في مستودع مستقل ولا تنشر عليه مواد البوابة.
+هذه نسخة مستقلة من بوابة المواد. الصفحة الرئيسية مصدرها `portal.html` وتولّد في `index.html` عبر `npm run build`. تطبيق اللغة المصرية القديمة مصدره `src/` ويولّد في `ancient-egyptian-language/index.html`. مواد التاريخ في `history/` و`graeco-roman/` و`islamic-history/` و`modern-history/`. صفحة `spanish-language/` هي مدخل مادة الإسبانية، وتربط بتطبيق الدروس في `spanish/`. مصدر التطبيق `spanish-src/`. رابط التطبيق القديم `https://tfs-first.github.io/Tourism2026/` في مستودع مستقل ولا تنشر عليه مواد البوابة.
 
 اقرأ [AGENTS.md](AGENTS.md) قبل العمل، سواء كنت مطورًا أو مساعد AI.
 التنظيم الجديد يفصل المحتوى عن العرض مع الحفاظ على واجهة وسلوك الدروس الحالية.
@@ -20,6 +20,7 @@ python3 -m http.server 4173 --bind 127.0.0.1
 
 افتح http://127.0.0.1:4173/ بعد بدء الخادم.
 `npm run build` يولّد `index.html` من `portal.html`، ويولّد `ancient-egyptian-language/index.html` و`assets/app.js` و`assets/app.css` من `src/`، كما يولّد `assets/course-questions.js` من `assets/course-questions.json` كي تعمل الأسئلة عند فتح ملفات HTML محليًا. لا تعدّل الملفات المولّدة مباشرة.
+بعد تعديل الإسبانية شغّل `npm ci` مرة داخل `spanish-src/`، ثم `npm run build:spanish` من جذر المشروع لتوليد `spanish/index.html` وأصوله. ارفع المصدر والملفات المولدة معًا؛ البناء الجذري لا يُعيد بناء الإسبانية.
 GitHub Pages ينشر الملفات المولدة المرفوعة على `main`، ولا يحتاج خادم Node في الإنتاج.
 
 ### فتح المحاضرات من الجهاز
@@ -31,6 +32,9 @@ GitHub Pages ينشر الملفات المولدة المرفوعة على `mai
 - `src/lessons/lesson-01.json` … ملف مستقل لكل درس، بكل كلماته وقواعده وتدريباته.
 - `src/lessons/registry.json`: ترتيب ملفات الدروس المعتمدة. إضافة ملف هنا تُدرجه في الأقسام والقائمة.
 - `src/data/shared/`: الرموز الأحادية، العلامات الصوتية، وبنك الاختبارات العام السابق للتقسيم.
+- `spanish-src/src/data/lessons/`: ملفات دروس الإسبانية، والدرس `N` يقابل Track `N+1`. راجع التسجيل ومصدره قبل إضافة درس جديد.
+- `spanish-src/src/data/normalizeLesson.js`: يوفّق بنية الدروس 1–20 القديمة مع الواجهة دون تغيير محتواها.
+- `spanish/`: ملفات تطبيق الإسبانية الجاهزة للنشر، مولّدة من `spanish-src/`.
 - `src/data/shared/rule-summaries.json`: ملخصات القواعد السابقة دون تغيير نصوصها الأصلية. الدروس الجديدة تضع الملخص في `quickSummary` داخل القاعدة في ملف الدرس.
 - `src/components/`: مكوّنات العرض المشتركة، ضبط الرموز، الرسم، القائمة الجانبية والواجهة الافتتاحية.
 - `src/sections/`: القاموس والقواعد والعلامات الصوتية والتدريبات والكتابة والاختبار.
