@@ -24,6 +24,12 @@ for (const key of lectures) {
       for (const field of required) {
         if (typeof item[field] !== 'string' || !item[field].trim()) errors.push(`Missing ${kind}[${index}].${field}: ${key}`);
         else if (/المحاضرة|الدرس|الشرائح/.test(item[field])) errors.push(`Content should explain facts, not refer to lecture: ${key} ${kind}[${index}].${field}`);
+        if (key.startsWith('graeco-roman/')) {
+          const english = item[`${field}En`];
+          if (typeof english !== 'string' || !/[A-Za-z]/.test(english) || /[\u0600-\u06ff]/.test(english)) {
+            errors.push(`Missing English ${kind}[${index}].${field}En: ${key}`);
+          }
+        }
       }
       if (kind === 'trueFalse' && typeof item.answer !== 'boolean') errors.push(`Invalid trueFalse[${index}].answer: ${key}`);
     });

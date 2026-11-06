@@ -43,6 +43,17 @@ body { overflow-x: clip; }
 .course-answer { margin-top: .75rem; border-top: 1px solid #e7decc; padding-top: .75rem; }
 .course-answer summary { width: fit-content; cursor: pointer; color: #12666d; font-weight: 800; }
 .course-answer p { margin: .75rem 0 0; line-height: 2; white-space: pre-line; }
+.course-self-test--en { direction: ltr; text-align: left; }
+.course-self-test--en .course-question-text, .course-self-test--en .course-question-feedback, .course-self-test--en .course-answer > p { direction: ltr; text-align: left; }
+.course-question-translation { margin-top: .8rem; padding: .8rem 1rem; border: 1px solid #cee5dc; border-radius: .7rem; background: #f0faf5; color: #25473b; direction: rtl; text-align: right; }
+.course-question-translation p { margin: .3rem 0 0; line-height: 1.8; }
+.course-translation-label { display: inline-block; color: #12634e; font-size: .82rem; font-weight: 800; }
+.greek-exam-form { direction: ltr; text-align: left; }
+.greek-exam-form label span { direction: ltr; text-align: left; }
+.course-mcq-translation { display: none; margin-top: .7rem; padding: .7rem .9rem; border: 1px solid #cee5dc; border-radius: .7rem; background: #f0faf5; color: #25473b; text-align: right; }
+[id^="feedback-q"]:not(.hidden) + .course-mcq-translation { display: block; }
+.course-mcq-translation summary { cursor: pointer; font-weight: 800; color: #12634e; }
+.course-mcq-translation p { margin: .45rem 0 0; line-height: 1.8; }
 .subject-card { padding: 1.15rem !important; border-width: 1px !important; border-radius: 1.2rem !important; }
 .subject-card h4 { font-size: 1.05rem !important; line-height: 1.65; }
 .subject-card p { line-height: 1.8 !important; }

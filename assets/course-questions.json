@@ -376,50 +376,70 @@
       {
         "statement": "يعد العصر الهيلينستي إحدى مراحل التاريخ اليوناني.",
         "answer": true,
-        "explanation": "بدأ العصر الهيلينستي بعد وفاة الإسكندر سنة 323 ق.م، وانتشرت فيه الثقافة اليونانية في مصر ومناطق الشرق."
+        "explanation": "بدأ العصر الهيلينستي بعد وفاة الإسكندر سنة 323 ق.م، وانتشرت فيه الثقافة اليونانية في مصر ومناطق الشرق.",
+        "statementEn": "The Hellenistic Age is one of the stages of Greek history.",
+        "explanationEn": "The Hellenistic era began after the death of Alexander in 323 BC, during which Greek culture spread in Egypt and the regions of the East."
       },
       {
         "statement": "جاء العصر الكلاسيكي بعد العصر الهيلينستي.",
         "answer": false,
-        "explanation": "سبق العصر الكلاسيكي توسع مقدونيا، ثم بدأ العصر الهيلينستي بعد وفاة الإسكندر."
+        "explanation": "سبق العصر الكلاسيكي توسع مقدونيا، ثم بدأ العصر الهيلينستي بعد وفاة الإسكندر.",
+        "statementEn": "The Classical Age came after the Hellenistic Age.",
+        "explanationEn": "The Classical Age preceded the expansion of Macedonia, and the Hellenistic Age began after the death of Alexander."
       },
       {
         "statement": "تعود البداية التقليدية للألعاب الأولمبية إلى سنة 776 ق.م.",
         "answer": true,
-        "explanation": "كانت الألعاب من الروابط الثقافية بين المدن اليونانية المستقلة، إلى جانب اللغة والأساطير المشتركة."
+        "explanation": "كانت الألعاب من الروابط الثقافية بين المدن اليونانية المستقلة، إلى جانب اللغة والأساطير المشتركة.",
+        "statementEn": "The traditional beginning of the Olympic Games dates back to 776 BC.",
+        "explanationEn": "The games were a cultural link between independent Greek cities, along with a shared language and mythology."
       },
       {
         "statement": "يمتاز تاج العمود الدوري بالبساطة مقارنة بتاج العمود الكورنثي.",
         "answer": true,
-        "explanation": "التاج الدوري بسيط، أما الكورنثي فيتميز بزخارف أوراق الأكانثوس."
+        "explanation": "التاج الدوري بسيط، أما الكورنثي فيتميز بزخارف أوراق الأكانثوس.",
+        "statementEn": "The capital of the Doric column is characterized by simplicity compared to the capital of the Corinthian column.",
+        "explanationEn": "The Doric capital is simple, while the Corinthian capital features acanthus leaf decoration."
       },
       {
         "statement": "تزخرف أوراق الأكانثوس تاج العمود الأيوني لا الكورنثي.",
         "answer": false,
-        "explanation": "الأكانثوس سمة التاج الكورنثي؛ ويتميز الأيوني باللفائف الحلزونية."
+        "explanation": "الأكانثوس سمة التاج الكورنثي؛ ويتميز الأيوني باللفائف الحلزونية.",
+        "statementEn": "Acanthus leaves decorate the capital of the Ionic column, not the Corinthian.",
+        "explanationEn": "Acanthus leaves are characteristic of Corinthian capitals, whereas Ionic capitals have volutes."
       },
       {
         "statement": "كانت المدن اليونانية القديمة كلها تابعة لحكومة مركزية واحدة.",
         "answer": false,
-        "explanation": "كانت «البوليس» مدينة دولة مستقلة بحكمها وأراضيها، رغم اشتراك المدن في عناصر ثقافية."
+        "explanation": "كانت «البوليس» مدينة دولة مستقلة بحكمها وأراضيها، رغم اشتراك المدن في عناصر ثقافية.",
+        "statementEn": "Ancient Greek cities were all subordinate to one central government.",
+        "explanationEn": "The \"polis\" was an independent city state with its own rule and territory, although the cities shared cultural elements."
       }
     ],
     "essay": [
       {
         "question": "رتب الحقب الأربع الكبرى للتاريخ اليوناني.",
-        "answer": "عصر الظلمات، ثم العصر العتيق أو الآركي، ثم العصر الكلاسيكي أو الهيليني، ثم العصر الهيلينستي."
+        "answer": "عصر الظلمات، ثم العصر العتيق أو الآركي، ثم العصر الكلاسيكي أو الهيليني، ثم العصر الهيلينستي.",
+        "questionEn": "Rank the four major eras of Greek history.",
+        "answerEn": "The four periods are the Dark Age, the Archaic Age, the Classical (Hellenic) Age, and the Hellenistic Age."
       },
       {
         "question": "ما الفرق بين العصر الهيليني والعصر الهيلينستي؟",
-        "answer": "يشير الهيليني هنا إلى العصر الكلاسيكي للمدن اليونانية المستقلة. أما الهيلينستي فيبدأ بعد وفاة الإسكندر، حين انتشرت الثقافة اليونانية في مصر والشرق ضمن ممالك خلفائه."
+        "answer": "يشير الهيليني هنا إلى العصر الكلاسيكي للمدن اليونانية المستقلة. أما الهيلينستي فيبدأ بعد وفاة الإسكندر، حين انتشرت الثقافة اليونانية في مصر والشرق ضمن ممالك خلفائه.",
+        "questionEn": "How does the Hellenic (Classical) Age differ from the Hellenistic Age?",
+        "answerEn": "The Hellenic or Classical Age concerns the independent Greek city-states. The Hellenistic Age began after Alexander’s death, when Greek culture spread through Egypt and the eastern kingdoms of his successors."
       },
       {
         "question": "ما العناصر التي أسهمت في الوحدة الثقافية للمدن اليونانية رغم استقلالها السياسي؟",
-        "answer": "تُبرز شرائح الدكتورة اللغة والأساطير المشتركة والألعاب الأولمبية. وكانت كل بوليس مدينة دولة مستقلة بنظامها السياسي، لكن هذه العناصر جمعت اليونانيين ثقافيًا."
+        "answer": "تُبرز شرائح الدكتورة اللغة والأساطير المشتركة والألعاب الأولمبية. وكانت كل بوليس مدينة دولة مستقلة بنظامها السياسي، لكن هذه العناصر جمعت اليونانيين ثقافيًا.",
+        "questionEn": "What elements contributed to the cultural unity of Greek cities despite their political independence?",
+        "answerEn": "Shared language, mythology, and the Olympic Games connected the Greeks culturally, even though each polis had its own government and territory."
       },
       {
         "question": "قارن بين الطرز الدوري والأيوني والكورنثي من حيث شكل التاج.",
-        "answer": "الدوري تاجه بسيط قليل الزخرفة وعموده متين. الأيوني أنحف، وتظهر في تاجه لفائف حلزونية. الكورنثي أكثر زخرفة، ويظهر فيه نبات الأكانثوس."
+        "answer": "الدوري تاجه بسيط قليل الزخرفة وعموده متين. الأيوني أنحف، وتظهر في تاجه لفائف حلزونية. الكورنثي أكثر زخرفة، ويظهر فيه نبات الأكانثوس.",
+        "questionEn": "Compare the Doric, Ionic, and Corinthian styles in terms of crown shape.",
+        "answerEn": "Doric capitals are plain and their columns are sturdy. Ionic capitals have spiral volutes. Corinthian capitals are more elaborate and decorated with acanthus leaves."
       }
     ]
   },
@@ -429,50 +449,70 @@
       {
         "statement": "طور فيليب الثاني تشكيل الفيلانكس ضمن إصلاح الجيش المقدوني.",
         "answer": true,
-        "explanation": "ساعد تنظيم صفوف الفيلانكس وتسليحها على زيادة قوة الجيش، فصار أداة أساسية في صعود مقدونيا."
+        "explanation": "ساعد تنظيم صفوف الفيلانكس وتسليحها على زيادة قوة الجيش، فصار أداة أساسية في صعود مقدونيا.",
+        "statementEn": "Philip II developed the formation of the phalanx as part of the reform of the Macedonian army.",
+        "explanationEn": "Organizing and arming the ranks of the phalanx helped increase the strength of the army, becoming an essential tool in the rise of Macedon."
       },
       {
         "statement": "توفي فيليب الثاني بعد حكم ابنه الإسكندر لمصر.",
         "answer": false,
-        "explanation": "اغتيل فيليب سنة 336 ق.م، ثم تولى الإسكندر الحكم ودخل مصر سنة 332 ق.م."
+        "explanation": "اغتيل فيليب سنة 336 ق.م، ثم تولى الإسكندر الحكم ودخل مصر سنة 332 ق.م.",
+        "statementEn": "Philip II died after his son Alexander ruled Egypt.",
+        "explanationEn": "Philip was assassinated in 336 BC, then Alexander took power and entered Egypt in 332 BC."
       },
       {
         "statement": "قضى فيليب الثاني فترة رهينة في طيبة اليونانية قبل حكم مقدونيا.",
         "answer": true,
-        "explanation": "أتاحت له تجربة طيبة الاطلاع على أساليب الحرب اليونانية التي أفاد منها في تنظيم جيشه."
+        "explanation": "أتاحت له تجربة طيبة الاطلاع على أساليب الحرب اليونانية التي أفاد منها في تنظيم جيشه.",
+        "statementEn": "Philip II spent a period as a hostage in Greek Thebes before ruling Macedon.",
+        "explanationEn": "His time in Thebes exposed Philip to Greek military methods that he later used when reorganizing his army."
       },
       {
         "statement": "كان أرسطو معلم فيليب الثاني الخاص في طفولته.",
         "answer": false,
-        "explanation": "ارتبط أرسطو بتعليم الإسكندر ابن فيليب، لا بتعليم فيليب في طفولته."
+        "explanation": "ارتبط أرسطو بتعليم الإسكندر ابن فيليب، لا بتعليم فيليب في طفولته.",
+        "statementEn": "Aristotle was Philip II's childhood tutor.",
+        "explanationEn": "Aristotle was linked to the education of Alexander, Philip's son, not to the education of Philip in his childhood."
       },
       {
         "statement": "جاءت أوليمبياس زوجة فيليب الثاني من إبيروس.",
         "answer": true,
-        "explanation": "كان زواج فيليب من أميرة إبيروس جزءًا من شبكة علاقاته السياسية والأسرية، وهي أم الإسكندر."
+        "explanation": "كان زواج فيليب من أميرة إبيروس جزءًا من شبكة علاقاته السياسية والأسرية، وهي أم الإسكندر.",
+        "statementEn": "Olympias, wife of Philip II, came from Epirus.",
+        "explanationEn": "Part of his political and family network was Philip's marriage to the Princess of Epirus, the mother of Alexander."
       },
       {
         "statement": "اعتمد فيليب الثاني على القتال وحده من دون سياسة أو تحالفات لبسط نفوذه على اليونان.",
         "answer": false,
-        "explanation": "جمع بين القوة العسكرية والوسائل السياسية والتحالفات في سعيه إلى زعامة المدن اليونانية."
+        "explanation": "جمع بين القوة العسكرية والوسائل السياسية والتحالفات في سعيه إلى زعامة المدن اليونانية.",
+        "statementEn": "Philip II relied on fighting alone, without politics or alliances, to extend his influence over Greece.",
+        "explanationEn": "He combined military power, political means, and alliances in his quest for leadership of the Greek cities."
       }
     ],
     "essay": [
       {
         "question": "اشرح أهمية الفيلانكس في إصلاحات فيليب الثاني العسكرية.",
-        "answer": "الفيلانكس تشكيل قتالي منظم طوّره فيليب الثاني ضمن إصلاح جيشه. زاد الانضباط والتنسيق بين صفوف المقاتلين، فدعم قدرة مقدونيا على فرض نفوذها."
+        "answer": "الفيلانكس تشكيل قتالي منظم طوّره فيليب الثاني ضمن إصلاح جيشه. زاد الانضباط والتنسيق بين صفوف المقاتلين، فدعم قدرة مقدونيا على فرض نفوذها.",
+        "questionEn": "Explain the importance of the phalanx in Philip II’s military reforms.",
+        "answerEn": "The phalanx was an organized combat formation developed by Philip II as part of his army reform. Discipline and coordination increased among the ranks of the fighters, strengthening Macedonia's ability to impose its influence."
       },
       {
         "question": "كيف مهّد فيليب الثاني لصعود مقدونيا في بلاد اليونان؟",
-        "answer": "جمع فيليب الثاني بين جيش منظم يعتمد على الفيلانكس ووسائل سياسية وتحالفات للسيطرة على المدن اليونانية. اغتيل سنة 336 ق.م، فانتقل الحكم إلى ابنه الإسكندر."
+        "answer": "جمع فيليب الثاني بين جيش منظم يعتمد على الفيلانكس ووسائل سياسية وتحالفات للسيطرة على المدن اليونانية. اغتيل سنة 336 ق.م، فانتقل الحكم إلى ابنه الإسكندر.",
+        "questionEn": "How did Philip II pave the way for the rise of Macedonia in Greece?",
+        "answerEn": "Philip II combined a disciplined army built around the phalanx with diplomacy and alliances to extend Macedonian influence over the Greek city-states. He was assassinated in 336 BC, and his son Alexander succeeded him."
       },
       {
         "question": "كيف أفادت خبرة فيليب الثاني في طيبة إصلاح الجيش المقدوني؟",
-        "answer": "تعرف فيليب في طيبة إلى التنظيم العسكري اليوناني، ثم طور جيش مقدونيا والفيلانكس. ساعده ذلك على بناء قوة منظمة تدعم مشروعه السياسي في بلاد اليونان."
+        "answer": "تعرف فيليب في طيبة إلى التنظيم العسكري اليوناني، ثم طور جيش مقدونيا والفيلانكس. ساعده ذلك على بناء قوة منظمة تدعم مشروعه السياسي في بلاد اليونان.",
+        "questionEn": "How did Philip II's experience at Thebes benefit the reform of the Macedonian army?",
+        "answerEn": "Philip learned about Greek military organization while in Thebes. He later developed the Macedonian army and its phalanx, creating a disciplined force to support his political ambitions in Greece."
       },
       {
         "question": "اذكر الأدوات العسكرية والسياسية التي استخدمها فيليب الثاني لفرض نفوذ مقدونيا.",
-        "answer": "استند إلى جيش منظم وتشكيل الفيلانكس، كما استخدم التحالفات والوسائل السياسية لتوسيع نفوذه بين المدن. ثم انتهى حكمه باغتياله سنة 336 ق.م، وتولى الإسكندر من بعده."
+        "answer": "استند إلى جيش منظم وتشكيل الفيلانكس، كما استخدم التحالفات والوسائل السياسية لتوسيع نفوذه بين المدن. ثم انتهى حكمه باغتياله سنة 336 ق.م، وتولى الإسكندر من بعده.",
+        "questionEn": "Mention the military and political tools that Philip II used to impose Macedonia's influence.",
+        "answerEn": "Philip II used an organized army centered on the phalanx, as well as diplomacy and alliances, to extend Macedonian influence among the Greek city-states. After his assassination in 336 BC, Alexander succeeded him."
       }
     ]
   },
@@ -482,50 +522,70 @@
       {
         "statement": "توفي الإسكندر الأكبر في بابل سنة 323 ق.م.",
         "answer": true,
-        "explanation": "أنهت وفاته مشروعه السياسي المباشر، وبدأ قادته بعد ذلك التنافس على إدارة الإمبراطورية وتقسيمها."
+        "explanation": "أنهت وفاته مشروعه السياسي المباشر، وبدأ قادته بعد ذلك التنافس على إدارة الإمبراطورية وتقسيمها.",
+        "statementEn": "Alexander the Great died in Babylon in 323 BC.",
+        "explanationEn": "His death left the empire without a straightforward succession, and his generals competed to govern and divide it."
       },
       {
         "statement": "لا توجد شواهد أثرية مرتبطة بالإسكندر في مصر.",
         "answer": false,
-        "explanation": "توجد له مقصورة في معبد الأقصر ونقوش وعملات تربطه بالتصور الملكي والديني المصري."
+        "explanation": "توجد له مقصورة في معبد الأقصر ونقوش وعملات تربطه بالتصور الملكي والديني المصري.",
+        "statementEn": "There is no archaeological evidence associated with Alexander in Egypt.",
+        "explanationEn": "There is a shrine for him in the Luxor Temple, and inscriptions and coins link him to the Egyptian royal and religious image."
       },
       {
         "statement": "دخل الإسكندر مصر سنة 332 ق.م.",
         "answer": true,
-        "explanation": "دخلها بعد حملاته ضد الفرس، ثم اتخذ خطوات لإظهار شرعية حكمه عند المصريين."
+        "explanation": "دخلها بعد حملاته ضد الفرس، ثم اتخذ خطوات لإظهار شرعية حكمه عند المصريين.",
+        "statementEn": "Alexander entered Egypt in 332 BC.",
+        "explanationEn": "He entered it after his campaigns against the Persians, then took steps to demonstrate the legitimacy of his rule to the Egyptians."
       },
       {
         "statement": "تأسست الإسكندرية قبل وصول الإسكندر إلى مصر.",
         "answer": false,
-        "explanation": "ارتبط تأسيس المدينة بزيارة الإسكندر لمصر واختياره موقعها على ساحل البحر المتوسط."
+        "explanation": "ارتبط تأسيس المدينة بزيارة الإسكندر لمصر واختياره موقعها على ساحل البحر المتوسط.",
+        "statementEn": "Alexandria was founded before Alexander arrived in Egypt.",
+        "explanationEn": "The founding of the city was linked to Alexander's visit to Egypt and his choice of its location on the Mediterranean coast."
       },
       {
         "statement": "ارتبطت رحلة الإسكندر إلى واحة سيوة بمعبد آمون.",
         "answer": true,
-        "explanation": "كانت زيارة المعبد جزءًا من بناء صورته الدينية والملكية في مصر."
+        "explanation": "كانت زيارة المعبد جزءًا من بناء صورته الدينية والملكية في مصر.",
+        "statementEn": "Alexander's trip to the Siwa Oasis was associated with the Temple of Amun.",
+        "explanationEn": "Visiting the temple was part of building his religious and royal image in Egypt."
       },
       {
         "statement": "كان جسر الهيبتاستاديون يفصل جزيرة فاروس عن بر الإسكندرية بدل أن يصل بينهما.",
         "answer": false,
-        "explanation": "وصل الجسر جزيرة فاروس بالبر، وأسهم في تشكيل الموانئ والمدينة."
+        "explanation": "وصل الجسر جزيرة فاروس بالبر، وأسهم في تشكيل الموانئ والمدينة.",
+        "statementEn": "The Heptastadion Bridge separated Pharos Island from mainland Alexandria instead of connecting them.",
+        "explanationEn": "The bridge connected Pharos Island to the mainland, and contributed to the formation of the ports and the city."
       }
     ],
     "essay": [
       {
         "question": "اشرح عوامل اختيار موقع الإسكندرية وأهمية الموانئ وجسر الهيبتاستاديون في تخطيطها.",
-        "answer": "اختير موقع الإسكندرية على ساحل البحر المتوسط ليخدم الاتصال البحري. وصل جسر الهيبتاستاديون جزيرة فاروس بالبر وأسهم في تشكيل الموانئ وتخطيط المدينة."
+        "answer": "اختير موقع الإسكندرية على ساحل البحر المتوسط ليخدم الاتصال البحري. وصل جسر الهيبتاستاديون جزيرة فاروس بالبر وأسهم في تشكيل الموانئ وتخطيط المدينة.",
+        "questionEn": "Explain the factors in choosing the location of Alexandria and the importance of ports and the Heptastadion Bridge in its planning.",
+        "answerEn": "The location of Alexandria on the Mediterranean coast was chosen to serve maritime communication. The Heptastadion Bridge connected Pharos Island to the mainland and contributed to the formation of the ports and the layout of the city."
       },
       {
         "question": "اذكر شاهدين أثريين مرتبطين بالإسكندر في مصر، وبيّن فائدة الشواهد للمرشد السياحي.",
-        "answer": "من الشواهد مقصورة الإسكندر في معبد الأقصر، ومناظر مرتبطة بآمون في طيبة، وعملة تصور قرني كبش آمون. تربط هذه الآثار صورته الملكية والدينية بأشياء مادية يمكن فحصها."
+        "answer": "من الشواهد مقصورة الإسكندر في معبد الأقصر، ومناظر مرتبطة بآمون في طيبة، وعملة تصور قرني كبش آمون. تربط هذه الآثار صورته الملكية والدينية بأشياء مادية يمكن فحصها.",
+        "questionEn": "Name two archaeological remains associated with Alexander in Egypt and explain why they matter to a tour guide.",
+        "answerEn": "Evidence includes Alexander's shrine in Luxor Temple, scenes associated with Amun in Thebes, and a coin depicting the horns of the ram of Amun. These relics link his royal and religious image to physical objects that can be examined."
       },
       {
         "question": "كيف جمع الإسكندر بين الشرعية السياسية والدينية بعد دخوله مصر؟",
-        "answer": "دخل مصر سنة 332 ق.م، وتوج في منف وفق الرموز الملكية المصرية، ثم زار معبد آمون في واحة سيوة. ساعده الجمع بين هذه الخطوات على تقديم نفسه حاكمًا مقبولًا في السياق المصري."
+        "answer": "دخل مصر سنة 332 ق.م، وتوج في منف وفق الرموز الملكية المصرية، ثم زار معبد آمون في واحة سيوة. ساعده الجمع بين هذه الخطوات على تقديم نفسه حاكمًا مقبولًا في السياق المصري.",
+        "questionEn": "How did Alexander combine political and religious legitimacy after entering Egypt?",
+        "answerEn": "He entered Egypt in 332 BC, was crowned in Memphis according to Egyptian royal symbols, and then visited the Temple of Amun in the Siwa Oasis. The combination of these steps helped him present himself as an acceptable ruler in the Egyptian context."
       },
       {
         "question": "ما النتائج السياسية لوفاة الإسكندر في بابل سنة 323 ق.م؟",
-        "answer": "ترك الإسكندر إمبراطورية واسعة بلا انتقال بسيط للسلطة، فاجتمع القادة وتنافسوا على الأقاليم. انتهى الصراع إلى ممالك خلفاء الإسكندر، ومنها المملكة البطلمية في مصر."
+        "answer": "ترك الإسكندر إمبراطورية واسعة بلا انتقال بسيط للسلطة، فاجتمع القادة وتنافسوا على الأقاليم. انتهى الصراع إلى ممالك خلفاء الإسكندر، ومنها المملكة البطلمية في مصر.",
+        "questionEn": "What were the political consequences of Alexander's death in Babylon in 323 BC?",
+        "answerEn": "Alexander left a vast empire with no simple transfer of power, so leaders gathered and competed for territories. The conflict ended in the kingdoms of Alexander's successors, including the Ptolemaic Kingdom in Egypt."
       }
     ]
   },
@@ -535,50 +595,70 @@
       {
         "statement": "ارتبط الموسيون ومكتبة الإسكندرية بمشروع بطليموس الأول العلمي في العاصمة.",
         "answer": true,
-        "explanation": "جذبت المؤسستان العلماء وجمعتا المعرفة، فدعمتا مكانة الإسكندرية مركزًا ثقافيًا وسياسيًا."
+        "explanation": "جذبت المؤسستان العلماء وجمعتا المعرفة، فدعمتا مكانة الإسكندرية مركزًا ثقافيًا وسياسيًا.",
+        "statementEn": "The Mouseion and Library of Alexandria were linked to Ptolemy I’s scholarly project in the capital.",
+        "explanationEn": "The two institutions attracted scholars and accumulated knowledge, strengthening Alexandria's position as a cultural and political center."
       },
       {
         "statement": "ظهرت عبادة سيرابيس خارج سياق العصر البطلمي تمامًا.",
         "answer": false,
-        "explanation": "ارتبطت عبادة سيرابيس بسياسة البطالمة الدينية في الإسكندرية، وكان السرابيوم من أهم مواقعها."
+        "explanation": "ارتبطت عبادة سيرابيس بسياسة البطالمة الدينية في الإسكندرية، وكان السرابيوم من أهم مواقعها.",
+        "statementEn": "The cult of Serapis appeared completely outside the context of the Ptolemaic period.",
+        "explanationEn": "The cult of Serapis was linked to the religious policy of the Ptolemies in Alexandria, and the Serapeum was one of its most important sites."
       },
       {
         "statement": "حكم البطالمة مصر بعد تقسيم إمبراطورية الإسكندر، بينما حكم السلوقيون الشام وبلاد الرافدين.",
         "answer": true,
-        "explanation": "تقاسمت أسر خلفاء الإسكندر الأقاليم؛ فاستقر حكم البطالمة بمصر والسلوقيين بمناطق شرقية واسعة."
+        "explanation": "تقاسمت أسر خلفاء الإسكندر الأقاليم؛ فاستقر حكم البطالمة بمصر والسلوقيين بمناطق شرقية واسعة.",
+        "statementEn": "The Ptolemies ruled Egypt after the partition of Alexander's empire, while the Seleucids ruled the Levant and Mesopotamia.",
+        "explanationEn": "The families of Alexander's successors shared territories; The Ptolemaic rule settled in Egypt and the Seleucids in vast eastern regions."
       },
       {
         "statement": "كانت الإسكندرية عاصمة مصر في عهد البطالمة.",
         "answer": true,
-        "explanation": "صارت الإسكندرية مركز الحكم والثقافة، وكانت اليونانية لغة الدولة في الإدارة البطلمية."
+        "explanation": "صارت الإسكندرية مركز الحكم والثقافة، وكانت اليونانية لغة الدولة في الإدارة البطلمية.",
+        "statementEn": "Alexandria was the capital of Egypt during the Ptolemaic era.",
+        "explanationEn": "Alexandria became the center of government and culture, and Greek was the state language in the Ptolemaic administration."
       },
       {
         "statement": "كانت عبادة سيرابيس عبادة يونانية خالصة لا صلة لها بالعناصر المصرية.",
         "answer": false,
-        "explanation": "جمعت صورة سيرابيس عناصر من تقاليد مصرية ويونانية، لذلك تفيد في فهم التداخل الديني البطلمي."
+        "explanation": "جمعت صورة سيرابيس عناصر من تقاليد مصرية ويونانية، لذلك تفيد في فهم التداخل الديني البطلمي.",
+        "statementEn": "The worship of Serapis was a purely Greek cult with no connection to Egyptian elements.",
+        "explanationEn": "The image of Serapis combined elements from Egyptian and Greek traditions, so it is useful in understanding Ptolemaic religious syncretism."
       },
       {
         "statement": "كانت طيبة عاصمة بطليموس الأول بدل الإسكندرية.",
         "answer": false,
-        "explanation": "اتخذ البطالمة الإسكندرية عاصمة، بينما بقيت طيبة مركزًا دينيًا مهمًا في الصعيد."
+        "explanation": "اتخذ البطالمة الإسكندرية عاصمة، بينما بقيت طيبة مركزًا دينيًا مهمًا في الصعيد.",
+        "statementEn": "Thebes was the capital of Ptolemy I instead of Alexandria.",
+        "explanationEn": "The Ptolemies made Alexandria their capital, while Thebes remained an important religious center in Upper Egypt."
       }
     ],
     "essay": [
       {
         "question": "اشرح دور الموسيون ومكتبة الإسكندرية في مشروع بطليموس الأول.",
-        "answer": "كان الموسيون والمكتبة مؤسستين علميتين في الإسكندرية لجمع المعرفة وجذب العلماء. دعمتا مكانة العاصمة الجديدة مركزًا ثقافيًا وسياسيًا في العالم الهيلينستي."
+        "answer": "كان الموسيون والمكتبة مؤسستين علميتين في الإسكندرية لجمع المعرفة وجذب العلماء. دعمتا مكانة العاصمة الجديدة مركزًا ثقافيًا وسياسيًا في العالم الهيلينستي.",
+        "questionEn": "Explain the roles of the Mouseion and the Library of Alexandria in Ptolemy I’s project.",
+        "answerEn": "The Mouseion and the Library were two scientific institutions in Alexandria to collect knowledge and attract scholars. They strengthened the new capital's status as a cultural and political center in the Hellenistic world."
       },
       {
         "question": "ما أهمية عبادة سيرابيس والسرابيوم في شرح العصر البطلمي للزوار؟",
-        "answer": "ارتبطت عبادة سيرابيس والسرابيوم بالحياة الدينية في الإسكندرية البطلمية. تجمع صور الإله عناصر مصرية ويونانية، ويساعد تمثاله وموقع المعبد على شرح هذا التداخل الثقافي."
+        "answer": "ارتبطت عبادة سيرابيس والسرابيوم بالحياة الدينية في الإسكندرية البطلمية. تجمع صور الإله عناصر مصرية ويونانية، ويساعد تمثاله وموقع المعبد على شرح هذا التداخل الثقافي.",
+        "questionEn": "What is the importance of the cult of Serapis and the Serapeum in explaining the Ptolemaic era to visitors?",
+        "answerEn": "The cult of Serapis and the Serapeum was associated with the religious life of Ptolemaic Alexandria. Images of the god combine Egyptian and Greek elements, and his statue and temple location help explain this cultural overlap."
       },
       {
         "question": "ضع البطالمة ضمن ممالك خلفاء الإسكندر، واذكر عاصمة مصر ولغة الحكم في عهدهم.",
-        "answer": "بعد وفاة الإسكندر توزعت إمبراطوريته: حكم البطالمة مصر، والسلوقيون بلاد الرافدين والشام، والأتاليديون بيرجامون. أصبحت الإسكندرية عاصمة مصر وصارت اليونانية لغة الحكم، بحسب الشريحة الأولى من عرض الأسرة البطلمية."
+        "answer": "بعد وفاة الإسكندر توزعت إمبراطوريته: حكم البطالمة مصر، والسلوقيون بلاد الرافدين والشام، والأتاليديون بيرجامون. أصبحت الإسكندرية عاصمة مصر وصارت اليونانية لغة الحكم، بحسب الشريحة الأولى من عرض الأسرة البطلمية.",
+        "questionEn": "Place the Ptolemies among the kingdoms of Alexander's successors, and mention the capital of Egypt and the language of government during their reign.",
+        "answerEn": "After Alexander’s death, the Ptolemies ruled Egypt, the Seleucids ruled Syria and Mesopotamia, and the Attalids ruled Pergamon. Alexandria became Egypt’s capital, and Greek was the language of government."
       },
       {
         "question": "كيف ساعدت الموسيون والمكتبة والإسكندرية بطليموس الأول في تثبيت حكمه؟",
-        "answer": "جعل من الإسكندرية عاصمة سياسية ومركزًا للمعرفة. جذب الموسيون والمكتبة العلماء والنصوص، ورسخا مكانة الدولة الجديدة ضمن العالم الهيلينستي."
+        "answer": "جعل من الإسكندرية عاصمة سياسية ومركزًا للمعرفة. جذب الموسيون والمكتبة العلماء والنصوص، ورسخا مكانة الدولة الجديدة ضمن العالم الهيلينستي.",
+        "questionEn": "How did Alexandria, the Mouseion, and the Library help Ptolemy I consolidate his rule?",
+        "answerEn": "He made Alexandria a political capital and a center of knowledge. The Mouseion and the library attracted scholars and texts, cementing the new state's position within the Hellenistic world."
       }
     ]
   },
@@ -588,50 +668,70 @@
       {
         "statement": "ارتبط عهد بطليموس الثاني باستصلاح الفيوم وإكمال فنار الإسكندرية.",
         "answer": true,
-        "explanation": "جمعت سياسته بين مشروعات زراعية توسع الإنتاج ومشروعات بحرية وعمرانية تعزز دور العاصمة."
+        "explanation": "جمعت سياسته بين مشروعات زراعية توسع الإنتاج ومشروعات بحرية وعمرانية تعزز دور العاصمة.",
+        "statementEn": "The reign of Ptolemy II was associated with the reclamation of Faiyum and the completion of the Lighthouse of Alexandria.",
+        "explanationEn": "His policy combined agricultural projects that expanded production with maritime and urban projects that enhanced the role of the capital."
       },
       {
         "statement": "لم يترك عهد بطليموس الثاني شواهد في معابد مصرية.",
         "answer": false,
-        "explanation": "تحفظ فيلة والكرنك نقوشًا وآثارًا بطلمية، إلى جانب الشواهد اليونانية في الإسكندرية."
+        "explanation": "تحفظ فيلة والكرنك نقوشًا وآثارًا بطلمية، إلى جانب الشواهد اليونانية في الإسكندرية.",
+        "statementEn": "The reign of Ptolemy II left no monuments in Egyptian temples.",
+        "explanationEn": "Philae and Karnak preserve Ptolemaic inscriptions and antiquities, in addition to Greek evidence in Alexandria."
       },
       {
         "statement": "ارتبط اسم أرسينوي الثانية بزواجها من أخيها بطليموس الثاني وتقديسها بعد ذلك.",
         "answer": true,
-        "explanation": "كان زواجهما من أبرز سمات الأسرة البطلمية في هذا العصر، وظهرت للملكة مكانة دينية رسمية."
+        "explanation": "كان زواجهما من أبرز سمات الأسرة البطلمية في هذا العصر، وظهرت للملكة مكانة دينية رسمية.",
+        "statementEn": "The name of Arsinoe II was linked to her marriage to her brother, Ptolemy II, and her subsequent deification.",
+        "explanationEn": "Their marriage was one of the most prominent features of the Ptolemaic family in this era, and the queen had an official religious status."
       },
       {
         "statement": "كانت الترجمة السبعينية ترجمة للنصوص العبرية إلى اللاتينية.",
         "answer": false,
-        "explanation": "الترجمة السبعينية نقلت نصوصًا دينية عبرية إلى اليونانية في بيئة الإسكندرية."
+        "explanation": "الترجمة السبعينية نقلت نصوصًا دينية عبرية إلى اليونانية في بيئة الإسكندرية.",
+        "statementEn": "The Septuagint was a translation of Hebrew texts into Latin.",
+        "explanationEn": "The Septuagint translated Hebrew religious texts into Greek in the Alexandrian environment."
       },
       {
         "statement": "كتب مانيتون تاريخًا لمصر عُرف باسم «أجيبتياكا».",
         "answer": true,
-        "explanation": "جمع مانيتون سردًا لتاريخ مصر في العصر البطلمي، فصار مرجعًا مهمًا عند دراسة الأسرات."
+        "explanation": "جمع مانيتون سردًا لتاريخ مصر في العصر البطلمي، فصار مرجعًا مهمًا عند دراسة الأسرات.",
+        "statementEn": "Manetho wrote a history of Egypt known as Egyptiaca.",
+        "explanationEn": "Manetho compiled a narrative of the history of Egypt in the Ptolemaic era, which became an important reference when studying dynasties."
       },
       {
         "statement": "نُفيت أرسينوي الثانية إلى قفط بعد طلاقها من بطليموس الثاني.",
         "answer": false,
-        "explanation": "التي نُفيت إلى قفط هي أرسينوي الأولى؛ أما أرسينوي الثانية فصارت زوجة بطليموس الثاني ومُنحت مكانة دينية."
+        "explanation": "التي نُفيت إلى قفط هي أرسينوي الأولى؛ أما أرسينوي الثانية فصارت زوجة بطليموس الثاني ومُنحت مكانة دينية.",
+        "statementEn": "Arsinoe II was exiled to Qeft after her divorce from Ptolemy II.",
+        "explanationEn": "The one who was exiled to Qift was Arsinoe I; As for Arsinoe II, she became the wife of Ptolemy II and was granted a religious status."
       }
     ],
     "essay": [
       {
         "question": "بين أهم أوجه النشاط الاقتصادي والعمراني في عهد بطليموس الثاني.",
-        "answer": "شملت سياسة بطليموس الثاني تنظيم المال والموارد واستصلاح أراضي الفيوم، وإكمال فنار الإسكندرية. ظهرت رعايته أيضًا في معابد مصرية ونقوشها."
+        "answer": "شملت سياسة بطليموس الثاني تنظيم المال والموارد واستصلاح أراضي الفيوم، وإكمال فنار الإسكندرية. ظهرت رعايته أيضًا في معابد مصرية ونقوشها.",
+        "questionEn": "Describe the main economic and building projects of Ptolemy II.",
+        "answerEn": "Ptolemy II's policy included organizing money and resources, reclaiming the lands of Faiyum, and completing the Lighthouse of Alexandria. His patronage also appeared in Egyptian temples and their inscriptions."
       },
       {
         "question": "كيف توظف الشواهد الأثرية فيلة والكرنك في شرح عصر بطليموس الثاني؟",
-        "answer": "تظهر نقوش فيلة وبوابة الكرنك حضور الملك والملكة في المعابد المصرية. يساعد وصف موضع الأثر وشكله ثم ربطه بسياقه الديني والسياسي على شرح استمرار تقاليد الملكية المصرية في العصر البطلمي."
+        "answer": "تظهر نقوش فيلة وبوابة الكرنك حضور الملك والملكة في المعابد المصرية. يساعد وصف موضع الأثر وشكله ثم ربطه بسياقه الديني والسياسي على شرح استمرار تقاليد الملكية المصرية في العصر البطلمي.",
+        "questionEn": "How can archaeological evidence from Philae and Karnak be used to explain the era of Ptolemy II?",
+        "answerEn": "The reliefs of Philae and the Karnak Gate show the presence of the king and queen in Egyptian temples. Describing the location and shape of the monument, then linking it to its religious and political context, helps explain the continuation of Egyptian royal traditions into the Ptolemaic era."
       },
       {
         "question": "ما مظاهر رعاية المعرفة في الإسكندرية خلال عهد بطليموس الثاني؟",
-        "answer": "برز توسيع المكتبة، والاهتمام بالترجمة السبعينية إلى اليونانية، وكتابة مانيتون لتاريخ مصر. أسهمت هذه الأعمال في جعل الإسكندرية مركزًا للبحث وجمع النصوص."
+        "answer": "برز توسيع المكتبة، والاهتمام بالترجمة السبعينية إلى اليونانية، وكتابة مانيتون لتاريخ مصر. أسهمت هذه الأعمال في جعل الإسكندرية مركزًا للبحث وجمع النصوص.",
+        "questionEn": "What are the manifestations of the patronage of knowledge in Alexandria during the reign of Ptolemy II?",
+        "answerEn": "The library expanded, the Septuagint translated Hebrew religious texts into Greek, and Manetho wrote a history of Egypt. Together these activities made Alexandria a center of scholarship and text collection."
       },
       {
         "question": "كيف ارتبط استصلاح الفيوم وإكمال الفنار بالدولة البطلمية في عهد بطليموس الثاني؟",
-        "answer": "وسع استصلاح الفيوم الرقعة الزراعية والإنتاج، بينما خدم الفنار الملاحة ومكانة ميناء الإسكندرية. يجمع المشروعان بين تنمية موارد الدولة وتأكيد دور عاصمتها البحري."
+        "answer": "وسع استصلاح الفيوم الرقعة الزراعية والإنتاج، بينما خدم الفنار الملاحة ومكانة ميناء الإسكندرية. يجمع المشروعان بين تنمية موارد الدولة وتأكيد دور عاصمتها البحري.",
+        "questionEn": "How were the reclamation of Fayoum and the completion of the Lighthouse linked to the Ptolemaic state during the reign of Ptolemy II?",
+        "answerEn": "Land reclamation in the Faiyum expanded farming and output, while the Lighthouse supported navigation and the port of Alexandria. Both projects strengthened state resources and the maritime capital."
       }
     ]
   },
@@ -641,50 +741,70 @@
       {
         "statement": "صدر مرسوم كانوب في عهد بطليموس الثالث سنة 238 ق.م.",
         "answer": true,
-        "explanation": "سجل المرسوم قرارات ملكية ودينية، ومن بينها محاولة إصلاح التقويم بإضافة يوم دوري."
+        "explanation": "سجل المرسوم قرارات ملكية ودينية، ومن بينها محاولة إصلاح التقويم بإضافة يوم دوري.",
+        "statementEn": "The Canopus Decree was issued during the reign of Ptolemy III in the year 238 BC.",
+        "explanationEn": "The decree recorded royal and religious decisions, including an attempt to reform the calendar by adding a periodic day."
       },
       {
         "statement": "لا علاقة لمرسوم كانوب بإصلاح التقويم.",
         "answer": false,
-        "explanation": "نص المرسوم على محاولة إضافة يوم كل أربع سنوات تقريبًا لمعالجة فرق ربع اليوم، وهي فكرة السنة الكبيسة."
+        "explanation": "نص المرسوم على محاولة إضافة يوم كل أربع سنوات تقريبًا لمعالجة فرق ربع اليوم، وهي فكرة السنة الكبيسة.",
+        "statementEn": "The Canopus Decree had nothing to do with calendar reform.",
+        "explanationEn": "The decree stipulated an attempt to add a day approximately every four years to address the quarter-day difference, the idea of ​​a leap year."
       },
       {
         "statement": "بلغت المملكة البطلمية اتساعًا ونفوذًا كبيرين في عهد بطليموس الثالث.",
         "answer": true,
-        "explanation": "ارتبط عهده بالحرب السورية الثالثة والتقدم شرقًا، وهي من ذرى القوة البطلمية."
+        "explanation": "ارتبط عهده بالحرب السورية الثالثة والتقدم شرقًا، وهي من ذرى القوة البطلمية.",
+        "statementEn": "The Ptolemaic Kingdom reached great expansion and influence during the reign of Ptolemy III.",
+        "explanationEn": "His reign was associated with the Third Syrian War and the advance eastward, which was one of the peaks of Ptolemaic power."
       },
       {
         "statement": "انتهت الحرب السورية الثالثة بهزيمة بطليموس الثالث قبل أي تقدم شرقًا.",
         "answer": false,
-        "explanation": "حقق بطليموس الثالث تقدمًا كبيرًا في الحرب السورية الثالثة ووصل نفوذه إلى مناطق شرقية، ومنها بابل."
+        "explanation": "حقق بطليموس الثالث تقدمًا كبيرًا في الحرب السورية الثالثة ووصل نفوذه إلى مناطق شرقية، ومنها بابل.",
+        "statementEn": "The Third Syrian War ended with the defeat of Ptolemy III before any advance eastward.",
+        "explanationEn": "Ptolemy III achieved great progress in the Third Syrian War, and his influence reached eastern regions, including Babylon."
       },
       {
         "statement": "بدأ تشييد معبد حورس بإدفو في عهد بطليموس الثالث.",
         "answer": true,
-        "explanation": "يرتبط بدء البناء بعام 237 ق.م، وتقدم مناظره شاهدًا على صلة الملوك البطالمة بالمعابد المصرية."
+        "explanation": "يرتبط بدء البناء بعام 237 ق.م، وتقدم مناظره شاهدًا على صلة الملوك البطالمة بالمعابد المصرية.",
+        "statementEn": "The construction of the Temple of Horus in Edfu began during the reign of Ptolemy III.",
+        "explanationEn": "The beginning of construction is linked to the year 237 BC, and its reliefs provide evidence of the connection of the Ptolemaic kings with Egyptian temples."
       },
       {
         "statement": "كانت إضافة يوم التقويم في مشروع كانوب تتم في كل سنة دون استثناء.",
         "answer": false,
-        "explanation": "اقترح الإصلاح إضافة يوم دوري بعد أربع سنوات تقريبًا لتعويض أجزاء اليوم المتراكمة."
+        "explanation": "اقترح الإصلاح إضافة يوم دوري بعد أربع سنوات تقريبًا لتعويض أجزاء اليوم المتراكمة.",
+        "statementEn": "The addition of the calendar day in the Canopus project occurred every year without exception.",
+        "explanationEn": "The reform proposed adding a periodic day after approximately four years to compensate for the accumulated day parts."
       }
     ],
     "essay": [
       {
         "question": "اشرح العلاقة بين مرسوم كانوب وتقويم السنة الكبيسة في عهد بطليموس الثالث.",
-        "answer": "صدر مرسوم كانوب سنة 238 ق.م في عهد بطليموس الثالث، واقترح إضافة يوم دوري إلى التقويم لتعويض فرق ربع اليوم المتراكم. ترتبط الفكرة بمبدأ السنة الكبيسة."
+        "answer": "صدر مرسوم كانوب سنة 238 ق.م في عهد بطليموس الثالث، واقترح إضافة يوم دوري إلى التقويم لتعويض فرق ربع اليوم المتراكم. ترتبط الفكرة بمبدأ السنة الكبيسة.",
+        "questionEn": "Explain the relationship between the Canopus Decree and the leap year calendar during the reign of Ptolemy III.",
+        "answerEn": "The Canopus Decree was issued in 238 BC during the reign of Ptolemy III, and proposed adding a periodic day to the calendar to compensate for the accumulated quarter-day difference. The idea is related to the leap year principle."
       },
       {
         "question": "اذكر شواهد أثرية من عهد بطليموس الثالث.",
-        "answer": "منها بدء تشييد معبد حورس بإدفو، وبوابة بطليموس الثالث في الكرنك، وإبريق فيانس مرتبط ببرنيكي الثانية. تربط هذه الشواهد الملكية البطلمية بالمعابد والفنون المصرية."
+        "answer": "منها بدء تشييد معبد حورس بإدفو، وبوابة بطليموس الثالث في الكرنك، وإبريق فيانس مرتبط ببرنيكي الثانية. تربط هذه الشواهد الملكية البطلمية بالمعابد والفنون المصرية.",
+        "questionEn": "Mention archaeological evidence from the reign of Ptolemy III.",
+        "answerEn": "Among them are the start of construction of the Temple of Horus in Edfu, the Gate of Ptolemy III in Karnak, and the Faience Jug associated with Berenice II. These examples link the Ptolemaic monarchy to Egyptian temples and art."
       },
       {
         "question": "اشرح أسباب بلوغ الدولة البطلمية ذروة نفوذها في عهد بطليموس الثالث.",
-        "answer": "تابع بطليموس الثالث سياسة توسع خارجية، وحقق تقدمًا في الحرب السورية الثالثة حتى مناطق شرقية بعيدة. رافق القوة السياسية اهتمام بالشواهد الدينية والعمرانية داخل مصر."
+        "answer": "تابع بطليموس الثالث سياسة توسع خارجية، وحقق تقدمًا في الحرب السورية الثالثة حتى مناطق شرقية بعيدة. رافق القوة السياسية اهتمام بالشواهد الدينية والعمرانية داخل مصر.",
+        "questionEn": "Explain the reasons why the Ptolemaic state reached the peak of its influence during the reign of Ptolemy III.",
+        "answerEn": "Ptolemy III pursued expansion and advanced far east during the Third Syrian War, reaching areas that included Babylon. His reign also saw royal patronage of Egyptian temples and monuments."
       },
       {
         "question": "ما أهمية معبد إدفو ومرسوم كانوب لفهم سياسة بطليموس الثالث؟",
-        "answer": "يرتبط بدء تشييد معبد حورس بإدفو بعهد الملك، مما يوضح رعاية المعابد المصرية. ويكشف مرسوم كانوب سنة 238 ق.م عن قرارات ملكية ودينية ومحاولة إصلاح التقويم بإضافة يوم دوري."
+        "answer": "يرتبط بدء تشييد معبد حورس بإدفو بعهد الملك، مما يوضح رعاية المعابد المصرية. ويكشف مرسوم كانوب سنة 238 ق.م عن قرارات ملكية ودينية ومحاولة إصلاح التقويم بإضافة يوم دوري.",
+        "questionEn": "What is the importance of the Temple of Edfu and the Canopus Decree for understanding the politics of Ptolemy III?",
+        "answerEn": "The beginning of the construction of the Temple of Horus in Edfu is linked to the reign of the king, which demonstrates the patronage of Egyptian temples. The Canopus Decree in 238 BC reveals royal and religious decisions and an attempt to reform the calendar by adding a periodic day."
       }
     ]
   },
@@ -694,50 +814,70 @@
       {
         "statement": "وقعت معركة رفح في عهد بطليموس الرابع.",
         "answer": true,
-        "explanation": "انتصر جيشه في رفح سنة 217 ق.م خلال الحرب السورية الرابعة، وكانت من أهم مواجهات البطالمة والسلوقيين."
+        "explanation": "انتصر جيشه في رفح سنة 217 ق.م خلال الحرب السورية الرابعة، وكانت من أهم مواجهات البطالمة والسلوقيين.",
+        "statementEn": "The Battle of Raphia took place during the reign of Ptolemy IV.",
+        "explanationEn": "His army was victorious in Raphia in 217 BC during the Fourth Syrian War, which was one of the most important confrontations of the Ptolemies and Seleucids."
       },
       {
         "statement": "لم تترك معركة رفح أي أثر في تاريخ المملكة البطلمية.",
         "answer": false,
-        "explanation": "أظهرت رفح قوة الجيش، لكن المرحلة التالية شهدت توترات داخلية وثورات في الصعيد؛ ولذلك تعد نقطة تحول."
+        "explanation": "أظهرت رفح قوة الجيش، لكن المرحلة التالية شهدت توترات داخلية وثورات في الصعيد؛ ولذلك تعد نقطة تحول.",
+        "statementEn": "The Battle of Raphia left no trace in the history of the Ptolemaic Kingdom.",
+        "explanationEn": "Raphia demonstrated the strength of the army, but the next stage witnessed internal tensions and revolutions in Upper Egypt. Therefore, it is a turning point."
       },
       {
         "statement": "دارت معركة رفح سنة 217 ق.م بين البطالمة والسلوقيين.",
         "answer": true,
-        "explanation": "كانت المواجهة جزءًا من الحرب السورية الرابعة على النفوذ في سورية المجوفة."
+        "explanation": "كانت المواجهة جزءًا من الحرب السورية الرابعة على النفوذ في سورية المجوفة.",
+        "statementEn": "The Battle of Raphia took place in 217 BC between the Ptolemies and the Seleucids.",
+        "explanationEn": "The battle formed part of the Fourth Syrian War, fought over influence in Coele-Syria."
       },
       {
         "statement": "لم يشارك جنود مصريون في جيش بطليموس الرابع في رفح.",
         "answer": false,
-        "explanation": "شارك مصريون في تشكيلات القتال، وكان دورهم من السمات اللافتة في المعركة."
+        "explanation": "شارك مصريون في تشكيلات القتال، وكان دورهم من السمات اللافتة في المعركة.",
+        "statementEn": "No Egyptian soldiers participated in Ptolemy IV's army at Raphia.",
+        "explanationEn": "Egyptians participated in the fighting formations, and their role was a striking feature in the battle."
       },
       {
         "statement": "بدأت اضطرابات طيبة بعد انتصار رفح ضمن أزمة المملكة الداخلية.",
         "answer": true,
-        "explanation": "لم يمنع النصر الخارجي اتساع مشكلات الحكم والاضطراب في صعيد مصر."
+        "explanation": "لم يمنع النصر الخارجي اتساع مشكلات الحكم والاضطراب في صعيد مصر.",
+        "statementEn": "The unrest in Thebes began after the victory of Raphia as part of the kingdom's internal crisis.",
+        "explanationEn": "The external victory did not prevent the expansion of governance problems and unrest in Upper Egypt."
       },
       {
         "statement": "كانت أفيال الجيشين المتقابلين في رفح من مصدر واحد ونوع واحد.",
         "answer": false,
-        "explanation": "واجهت الأفيال الأفريقية في الجيش البطلمي أفيالًا آسيوية في جيش السلوقيين، وكان اختلاف المصدر من تفاصيل المعركة."
+        "explanation": "واجهت الأفيال الأفريقية في الجيش البطلمي أفيالًا آسيوية في جيش السلوقيين، وكان اختلاف المصدر من تفاصيل المعركة.",
+        "statementEn": "The elephants of the two opposing armies in Raphia were of the same origin and type.",
+        "explanationEn": "African elephants in the Ptolemaic army faced Asian elephants in the Seleucid army, and the difference in source was a detail of the battle."
       }
     ],
     "essay": [
       {
         "question": "لماذا تعد معركة رفح نقطة تحول في تاريخ البطالمة؟",
-        "answer": "كانت رفح سنة 217 ق.م انتصارًا عسكريًا مهمًا لبطليموس الرابع، لكن الفترة التالية شهدت اضطرابات داخلية وثورات في طيبة والصعيد. يوضح التتابع أن النصر الخارجي لم يحل مشكلات الدولة."
+        "answer": "كانت رفح سنة 217 ق.م انتصارًا عسكريًا مهمًا لبطليموس الرابع، لكن الفترة التالية شهدت اضطرابات داخلية وثورات في طيبة والصعيد. يوضح التتابع أن النصر الخارجي لم يحل مشكلات الدولة.",
+        "questionEn": "Why is the Battle of Raphia considered a turning point in the history of the Ptolemies?",
+        "answerEn": "Raphia in 217 BC was an important military victory for Ptolemy IV, but the following period witnessed internal unrest and revolts in Thebes and Upper Egypt. The sequence demonstrates that external victory did not solve the country's problems."
       },
       {
         "question": "بيّن كيف يمكن للمرشد الجمع بين السرد العسكري والشواهد الأثرية عند شرح عهد بطليموس الرابع.",
-        "answer": "يبدأ الشرح بأطراف معركة رفح ونتيجتها سنة 217 ق.م، ثم ينتقل إلى أثرها السياسي والاضطرابات اللاحقة. وتربط آثار مثل إبريق أرسينوي الثالثة الشخصيات التاريخية بشواهد مادية."
+        "answer": "يبدأ الشرح بأطراف معركة رفح ونتيجتها سنة 217 ق.م، ثم ينتقل إلى أثرها السياسي والاضطرابات اللاحقة. وتربط آثار مثل إبريق أرسينوي الثالثة الشخصيات التاريخية بشواهد مادية.",
+        "questionEn": "Explain how a guide can combine military narrative and archaeological evidence when explaining the reign of Ptolemy IV.",
+        "answerEn": "The explanation begins with the parties and outcome of the Battle of Raphia in 217 BC, then moves to its political impact and subsequent unrest. Antiquities such as the Arsinoe III jug link historical figures to material evidence."
       },
       {
         "question": "كيف أسهم الجنود المصريون في نتيجة معركة رفح؟",
-        "answer": "جند بطليموس الرابع قوات مصرية ضمن جيشه في مواجهة السلوقيين، وصمدت تشكيلاتها في المعركة. أظهر ذلك إمكان الاعتماد العسكري على المصريين، مع بقاء التوترات الداخلية بعد النصر."
+        "answer": "جند بطليموس الرابع قوات مصرية ضمن جيشه في مواجهة السلوقيين، وصمدت تشكيلاتها في المعركة. أظهر ذلك إمكان الاعتماد العسكري على المصريين، مع بقاء التوترات الداخلية بعد النصر.",
+        "questionEn": "How did Egyptian soldiers contribute to the outcome of the Battle of Raphia?",
+        "answerEn": "Ptolemy IV recruited Egyptian forces into his army against the Seleucids, and their formations withstood the battle. This demonstrated the possibility of military dependence on the Egyptians, with internal tensions remaining after victory."
       },
       {
         "question": "اربط بين الحرب السورية الرابعة ومعركة رفح واضطرابات الصعيد اللاحقة.",
-        "answer": "نشبت الحرب على النفوذ في سورية المجوفة، وانتهت معركة رفح سنة 217 ق.م بانتصار بطلمي. لكن الدولة واجهت لاحقًا اضطرابات في طيبة والصعيد، مما يبين أن النجاح العسكري الخارجي لم يحسم أزماتها الداخلية."
+        "answer": "نشبت الحرب على النفوذ في سورية المجوفة، وانتهت معركة رفح سنة 217 ق.م بانتصار بطلمي. لكن الدولة واجهت لاحقًا اضطرابات في طيبة والصعيد، مما يبين أن النجاح العسكري الخارجي لم يحسم أزماتها الداخلية.",
+        "questionEn": "Link the Fourth Syrian War to the Battle of Raphia and the subsequent Upper Egypt unrest.",
+        "answerEn": "The war for influence broke out in Coele-Syria, and the Battle of Raphia in 217 BC ended with a Ptolemaic victory. But the state later faced unrest in Thebes and Upper Egypt, showing that external military success did not resolve its internal crises."
       }
     ]
   },
@@ -747,50 +887,70 @@
       {
         "statement": "يرتبط حجر رشيد بمرسوم صدر في منف سنة 196 ق.م في عهد بطليموس الخامس.",
         "answer": true,
-        "explanation": "سُجل المرسوم بخطوط متعددة، فأصبحت المقارنة بين نصوصه ذات قيمة كبيرة في قراءة الكتابة المصرية القديمة."
+        "explanation": "سُجل المرسوم بخطوط متعددة، فأصبحت المقارنة بين نصوصه ذات قيمة كبيرة في قراءة الكتابة المصرية القديمة.",
+        "statementEn": "The Rosetta Stone is linked to a decree issued in Memphis in 196 BC during the reign of Ptolemy V.",
+        "explanationEn": "The decree was recorded in multiple scripts, so comparison between its texts became of great value in reading ancient Egyptian writing."
       },
       {
         "statement": "كُتب نص حجر رشيد بخط واحد فقط.",
         "answer": false,
-        "explanation": "حمل النص ثلاثة خطوط: الهيروغليفية والديموطيقية واليونانية، وهو ما أتاح المقارنة بينها."
+        "explanation": "حمل النص ثلاثة خطوط: الهيروغليفية والديموطيقية واليونانية، وهو ما أتاح المقارنة بينها.",
+        "statementEn": "The text of the Rosetta Stone was written in only one script.",
+        "explanationEn": "The text carried three scripts: hieroglyphic, demotic, and Greek, which allowed comparison between them."
       },
       {
         "statement": "تولى بطليموس الخامس الحكم وهو صغير السن وسط صراع على السلطة.",
         "answer": true,
-        "explanation": "استغل رجال البلاط صغر سن الملك، فاشتدت المنافسة والاضطرابات في بداية عهده."
+        "explanation": "استغل رجال البلاط صغر سن الملك، فاشتدت المنافسة والاضطرابات في بداية عهده.",
+        "statementEn": "Ptolemy V took power at a young age amid a struggle for power.",
+        "explanationEn": "The courtiers took advantage of the king's young age, and competition and unrest intensified at the beginning of his reign."
       },
       {
         "statement": "صدر مرسوم حجر رشيد في عهد بطليموس الثالث سنة 238 ق.م.",
         "answer": false,
-        "explanation": "سنة 238 ق.م تخص مرسوم كانوب؛ أما مرسوم حجر رشيد فأصدر في منف سنة 196 ق.م في عهد بطليموس الخامس."
+        "explanation": "سنة 238 ق.م تخص مرسوم كانوب؛ أما مرسوم حجر رشيد فأصدر في منف سنة 196 ق.م في عهد بطليموس الخامس.",
+        "statementEn": "The Rosetta Stone Decree was issued during the reign of Ptolemy III in 238 BC.",
+        "explanationEn": "The year 238 BC relates to the Canopus Decree; As for the Rosetta Stone Decree, it was issued in Memphis in the year 196 BC during the reign of Ptolemy V."
       },
       {
         "statement": "ساعد وجود نص يوناني على حجر رشيد في تفسير صيغتيه المصريتين.",
         "answer": true,
-        "explanation": "أتاحت المقارنة بين النص اليوناني المعروف والخطين المصريين التعرف تدريجيًا إلى قيم العلامات والعبارات."
+        "explanation": "أتاحت المقارنة بين النص اليوناني المعروف والخطين المصريين التعرف تدريجيًا إلى قيم العلامات والعبارات.",
+        "statementEn": "The presence of Greek text on the Rosetta Stone helped explain its two Egyptian versions.",
+        "explanationEn": "Comparison between the well-known Greek text and the Egyptian script allowed the values ​​of signs and phrases to be gradually identified."
       },
       {
         "statement": "تسرد نقوش حجر رشيد قصة اكتشاف الحجر في العصر الحديث وحدها.",
         "answer": false,
-        "explanation": "النقش الأصلي مرسوم بطلمي يتعلق بالملك والمؤسسة الدينية؛ أما استخدامه في فك الرموز فحدث بعد قرون."
+        "explanation": "النقش الأصلي مرسوم بطلمي يتعلق بالملك والمؤسسة الدينية؛ أما استخدامه في فك الرموز فحدث بعد قرون.",
+        "statementEn": "The Rosetta Stone inscriptions alone tell the story of the stone's discovery in modern times.",
+        "explanationEn": "The original inscription records a Ptolemaic decree concerning the king and priesthood. Its use to decipher Egyptian scripts came centuries later."
       }
     ],
     "essay": [
       {
         "question": "اشرح القيمة التاريخية واللغوية لحجر رشيد في سياق عهد بطليموس الخامس.",
-        "answer": "يحمل حجر رشيد مرسومًا صدر في منف سنة 196 ق.م في عهد بطليموس الخامس. سُجل النص بالهيروغليفية والديموطيقية واليونانية، فساعدت المقارنة بين صِيغه على قراءة الكتابة المصرية."
+        "answer": "يحمل حجر رشيد مرسومًا صدر في منف سنة 196 ق.م في عهد بطليموس الخامس. سُجل النص بالهيروغليفية والديموطيقية واليونانية، فساعدت المقارنة بين صِيغه على قراءة الكتابة المصرية.",
+        "questionEn": "Explain the historical and linguistic value of the Rosetta Stone in the context of the reign of Ptolemy V.",
+        "answerEn": "The Rosetta Stone bears a decree issued in Memphis in 196 BC during the reign of Ptolemy V. The text was recorded in hieroglyphics, demotic, and Greek, and comparison between its forms helped in reading Egyptian writing."
       },
       {
         "question": "ما الفرق بين محتوى مرسوم حجر رشيد وأهمية الحجر اللاحقة في فك الرموز؟",
-        "answer": "محتوى النص مرسوم من العصر البطلمي يرتبط بالملك والمؤسسة الدينية. أما قيمته اللاحقة فترتبط بإمكان مقارنة صيغ النص بخطوط مختلفة للمساعدة في قراءة اللغة المصرية القديمة."
+        "answer": "محتوى النص مرسوم من العصر البطلمي يرتبط بالملك والمؤسسة الدينية. أما قيمته اللاحقة فترتبط بإمكان مقارنة صيغ النص بخطوط مختلفة للمساعدة في قراءة اللغة المصرية القديمة.",
+        "questionEn": "What is the difference between the content of the Rosetta Stone decree and the stone's subsequent importance in deciphering codes?",
+        "answerEn": "The stone records a Ptolemaic decree concerning the king and priesthood. Its later value came from comparing the same text in Greek, Demotic, and hieroglyphic scripts to help decipher ancient Egyptian."
       },
       {
         "question": "كيف أثّر صغر سن بطليموس الخامس في السياسة الداخلية عند بداية حكمه؟",
-        "answer": "فتح صغر سنه الباب لتنافس رجال البلاط على الوصاية والسلطة، وارتبطت المرحلة باغتيال أرسينوي الثالثة واضطرابات الإسكندرية. أثّر ذلك في استقرار الدولة وقدرتها على مواجهة الضغوط الخارجية."
+        "answer": "فتح صغر سنه الباب لتنافس رجال البلاط على الوصاية والسلطة، وارتبطت المرحلة باغتيال أرسينوي الثالثة واضطرابات الإسكندرية. أثّر ذلك في استقرار الدولة وقدرتها على مواجهة الضغوط الخارجية.",
+        "questionEn": "How did Ptolemy V's young age affect domestic politics at the beginning of his reign?",
+        "answerEn": "His young age opened the door for courtiers to compete for guardianship and power, and the stage was linked to the assassination of Arsinoe III and the unrest in Alexandria. This affected the stability of the state and its ability to confront external pressures."
       },
       {
         "question": "ما الفرق بين الغرض الأصلي من مرسوم حجر رشيد وقيمته العلمية اللاحقة؟",
-        "answer": "الغرض الأصلي تسجيل قرارات تكريم الملك بطليموس الخامس الصادرة في منف سنة 196 ق.م. أما قيمته اللاحقة فجاءت من وجود النص باليونانية والديموطيقية والهيروغليفية، مما ساعد على فك رموز الكتابة المصرية."
+        "answer": "الغرض الأصلي تسجيل قرارات تكريم الملك بطليموس الخامس الصادرة في منف سنة 196 ق.م. أما قيمته اللاحقة فجاءت من وجود النص باليونانية والديموطيقية والهيروغليفية، مما ساعد على فك رموز الكتابة المصرية.",
+        "questionEn": "What is the difference between the original purpose of the Rosetta Stone Decree and its subsequent scientific value?",
+        "answerEn": "The original purpose is to record the decisions honoring King Ptolemy V issued in Memphis in the year 196 BC. Its later value came from the presence of the text in Greek, Demotic, and hieroglyphics, which helped decipher Egyptian writing."
       }
     ]
   },
@@ -800,50 +960,70 @@
       {
         "statement": "تزايد التدخل الروماني في شؤون مصر خلال عهود البطالمة السادس إلى الثامن.",
         "answer": true,
-        "explanation": "ظهر نفوذ روما في النزاعات بين الملوك وفي تدخل مبعوثها بوبيليوس لإجبار أنطيوخوس على الانسحاب من مصر."
+        "explanation": "ظهر نفوذ روما في النزاعات بين الملوك وفي تدخل مبعوثها بوبيليوس لإجبار أنطيوخوس على الانسحاب من مصر.",
+        "statementEn": "Roman interference in Egyptian affairs increased during the sixth to eighth Ptolemaic reigns.",
+        "explanationEn": "Rome's influence appeared in disputes between kings and in the intervention of its envoy, Popillius Laenas, to force Antiochus to withdraw from Egypt."
       },
       {
         "statement": "لم تترك عهود البطالمة السادس إلى الثامن شواهد في المعابد المصرية.",
         "answer": false,
-        "explanation": "تضم كوم أمبو وإدفو مناظر ونقوشًا لملوك هذه المرحلة، إلى جانب روايات الصراع السياسي."
+        "explanation": "تضم كوم أمبو وإدفو مناظر ونقوشًا لملوك هذه المرحلة، إلى جانب روايات الصراع السياسي.",
+        "statementEn": "The sixth to eighth Ptolemaic eras did not leave any evidence in Egyptian temples.",
+        "explanationEn": "Kom Ombo and Edfu contain scenes and inscriptions of the kings of this period, as well as accounts of political conflict."
       },
       {
         "statement": "أجبر المبعوث الروماني بوبيليوس لايناس أنطيوخوس على اتخاذ قرار الانسحاب من مصر.",
         "answer": true,
-        "explanation": "رسم حوله دائرة في الرمل وطلب جوابًا قبل أن يغادرها؛ وهي صورة واضحة لنفوذ روما المتزايد."
+        "explanation": "رسم حوله دائرة في الرمل وطلب جوابًا قبل أن يغادرها؛ وهي صورة واضحة لنفوذ روما المتزايد.",
+        "statementEn": "The Roman envoy Popillius Laenas forced Antiochus to make the decision to withdraw from Egypt.",
+        "explanationEn": "He drew a circle around him in the sand and demanded an answer before leaving; It is a clear picture of Rome's growing influence."
       },
       {
         "statement": "رسم بطليموس السادس دائرة في الرمل ليفرض شروطه على روما.",
         "answer": false,
-        "explanation": "صاحب واقعة الدائرة هو المبعوث الروماني بوبيليوس لايناس، وقد وجه إنذاره إلى الملك السلوقي أنطيوخوس."
+        "explanation": "صاحب واقعة الدائرة هو المبعوث الروماني بوبيليوس لايناس، وقد وجه إنذاره إلى الملك السلوقي أنطيوخوس.",
+        "statementEn": "Ptolemy VI drew a circle in the sand to impose his terms on Rome.",
+        "explanationEn": "The Roman envoy Popillius Laenas drew the circle and demanded that the Seleucid king Antiochus decide whether to withdraw from Egypt."
       },
       {
         "statement": "ارتبط معبد كوم أمبو المزدوج بالعصر البطلمي في شواهد هذه المرحلة.",
         "answer": true,
-        "explanation": "تظهر فيه آثار ملكية ودينية تساعد على تتبع حضور البطالمة في معابد مصر."
+        "explanation": "تظهر فيه آثار ملكية ودينية تساعد على تتبع حضور البطالمة في معابد مصر.",
+        "statementEn": "The double temple of Kom Ombo is linked to the Ptolemaic era in the evidence of this stage.",
+        "explanationEn": "It contains royal and religious traces that help trace the presence of the Ptolemies in the temples of Egypt."
       },
       {
         "statement": "انتهت الصراعات الداخلية تمامًا في عهد بطليموس الثامن فيسكون.",
         "answer": false,
-        "explanation": "ارتبط حكمه بنزاعات عائلية وسياسية واضطرابات مست حياة الإسكندرية ومؤسساتها."
+        "explanation": "ارتبط حكمه بنزاعات عائلية وسياسية واضطرابات مست حياة الإسكندرية ومؤسساتها.",
+        "statementEn": "Internal conflicts completely ended during the reign of Ptolemy VIII Physcon.",
+        "explanationEn": "His rule was associated with family and political disputes and unrest that affected the life and institutions of Alexandria."
       }
     ],
     "essay": [
       {
         "question": "اشرح لماذا يصعب فهم عهد البطالمة السادس إلى الثامن بمعزل عن التدخل الروماني.",
-        "answer": "تداخلت صراعات البطالمة السادس إلى الثامن مع قوة روما الصاعدة، حتى تدخل مبعوثها بوبيليوس لإلزام أنطيوخوس بالانسحاب من مصر. لهذا يصعب فصل أزمات الحكم الداخلية عن النفوذ الروماني."
+        "answer": "تداخلت صراعات البطالمة السادس إلى الثامن مع قوة روما الصاعدة، حتى تدخل مبعوثها بوبيليوس لإلزام أنطيوخوس بالانسحاب من مصر. لهذا يصعب فصل أزمات الحكم الداخلية عن النفوذ الروماني.",
+        "questionEn": "Explain why the sixth to eighth Ptolemaic reigns are difficult to understand in isolation from Roman intervention.",
+        "answerEn": "The conflicts of the VI-VIII Ptolemies intertwined with the rising power of Rome, until its envoy, Popillius Laenas, intervened to force Antiochus to withdraw from Egypt. This is why it is difficult to separate internal governance crises from Roman influence."
       },
       {
         "question": "اذكر شاهدين أثريين من عهود البطالمة السادس إلى الثامن.",
-        "answer": "من الشواهد معبد كوم أمبو المزدوج، ونقوش في إدفو تصور بطليموس السادس وكليوباترا الثانية، ومناظر تتعلق ببطليموس الثامن. تكشف هذه الآثار أسماء الحكام وصورهم الرسمية وصلتهم بالمعابد."
+        "answer": "من الشواهد معبد كوم أمبو المزدوج، ونقوش في إدفو تصور بطليموس السادس وكليوباترا الثانية، ومناظر تتعلق ببطليموس الثامن. تكشف هذه الآثار أسماء الحكام وصورهم الرسمية وصلتهم بالمعابد.",
+        "questionEn": "Mention two archaeological evidence from the sixth to eighth Ptolemaic eras.",
+        "answerEn": "Evidence includes the double temple of Kom Ombo, reliefs in Edfu depicting Ptolemy VI and Cleopatra II, and scenes related to Ptolemy VIII. These monuments reveal the names of the rulers, their official portraits, and their connection to the temples."
       },
       {
         "question": "لماذا تعد واقعة دائرة بوبيليوس في الرمل علامة على تغير ميزان القوى؟",
-        "answer": "فرض المبعوث الروماني على أنطيوخوس ردًا فوريًا بشأن انسحابه من مصر، فظهر أن روما قادرة على التأثير في صراع الملوك الهيلينستيين. تكشف الواقعة ضعف استقلال قرار الأطراف المتنازعة أمام القوة الرومانية."
+        "answer": "فرض المبعوث الروماني على أنطيوخوس ردًا فوريًا بشأن انسحابه من مصر، فظهر أن روما قادرة على التأثير في صراع الملوك الهيلينستيين. تكشف الواقعة ضعف استقلال قرار الأطراف المتنازعة أمام القوة الرومانية.",
+        "questionEn": "Why did Popillius Laenas’s circle in the sand signal a change in the balance of power?",
+        "answerEn": "The Roman envoy imposed on Antiochus an immediate response regarding his withdrawal from Egypt, and it appeared that Rome was able to influence the struggle of the Hellenistic kings. The incident reveals the weakness of the independence of the conflicting parties’ decisions in the face of Roman power."
       },
       {
         "question": "اشرح أثر النزاع الأسري في حكم بطليموس الثامن على مصر والإسكندرية.",
-        "answer": "تداخلت صراعاته مع كليوباترا الثانية وبقية الأسرة في السياسة الداخلية، وأدت إلى اضطرابات وقمع وخروج بعض أهل العلم من الإسكندرية. يوضح ذلك أثر النزاع على استقرار الدولة ومركزها الثقافي."
+        "answer": "تداخلت صراعاته مع كليوباترا الثانية وبقية الأسرة في السياسة الداخلية، وأدت إلى اضطرابات وقمع وخروج بعض أهل العلم من الإسكندرية. يوضح ذلك أثر النزاع على استقرار الدولة ومركزها الثقافي.",
+        "questionEn": "Explain the impact of dynastic conflict on the rule of Ptolemy VIII over Egypt and Alexandria.",
+        "answerEn": "His conflicts with Cleopatra II and the rest of the family were intertwined in internal politics, and led to unrest, repression, and the departure of some scholars from Alexandria. This shows the impact of the conflict on the country's stability and cultural status."
       }
     ]
   },
@@ -853,50 +1033,70 @@
       {
         "statement": "عرف بطليموس الثاني عشر بلقب «أوليتيس» أي الزمار.",
         "answer": true,
-        "explanation": "ارتبط اللقب بشغفه بالعزف، وصار اسمًا شائعًا له في أخبار أواخر الأسرة البطلمية."
+        "explanation": "ارتبط اللقب بشغفه بالعزف، وصار اسمًا شائعًا له في أخبار أواخر الأسرة البطلمية.",
+        "statementEn": "Ptolemy XII was known by the nickname “Auletes,” meaning the flute player.",
+        "explanationEn": "The nickname referred to his flute playing and became a familiar name for him in accounts of the late Ptolemaic dynasty."
       },
       {
         "statement": "حكم أواخر البطالمة بمعزل تام عن نفوذ روما.",
         "answer": false,
-        "explanation": "سعى بطليموس الثاني عشر إلى شراء اعتراف روما بحكمه، مما يكشف تصاعد تدخلها في شؤون مصر."
+        "explanation": "سعى بطليموس الثاني عشر إلى شراء اعتراف روما بحكمه، مما يكشف تصاعد تدخلها في شؤون مصر.",
+        "statementEn": "The late Ptolemies ruled completely isolated from the influence of Rome.",
+        "explanationEn": "Ptolemy XII sought to buy Rome's recognition of his rule, exposing its increasing interference in Egyptian affairs."
       },
       {
         "statement": "استخدم بطليموس العاشر التابوت الذهبي للإسكندر في أزمة مالية تخص مرتزقته.",
         "answer": true,
-        "explanation": "نسب إليه الاستيلاء على الذهب المرتبط بالتابوت لدفع أجور الجنود، وهو ما أثار استنكارًا شديدًا."
+        "explanation": "نسب إليه الاستيلاء على الذهب المرتبط بالتابوت لدفع أجور الجنود، وهو ما أثار استنكارًا شديدًا.",
+        "statementEn": "Ptolemy X used Alexander's golden coffin in a financial crisis involving his mercenaries.",
+        "explanationEn": "He was credited with appropriating the gold attached to the coffin to pay the soldiers, which sparked strong condemnation."
       },
       {
         "statement": "لم يقع صراع بين بطليموس التاسع ووالدته كليوباترا الثالثة.",
         "answer": false,
-        "explanation": "كان تدخل كليوباترا الثالثة في تعاقب أبنائها على الحكم جزءًا من أزمات أواخر الأسرة."
+        "explanation": "كان تدخل كليوباترا الثالثة في تعاقب أبنائها على الحكم جزءًا من أزمات أواخر الأسرة.",
+        "statementEn": "There was no conflict between Ptolemy IX and his mother, Cleopatra III.",
+        "explanationEn": "Cleopatra III's interference in the succession of her sons was part of the crises of the late dynasty."
       },
       {
         "statement": "قتل بطليموس الحادي عشر برنيكي الثالثة بعد زواجه منها بفترة قصيرة.",
         "answer": true,
-        "explanation": "أثار قتلها غضب أهل الإسكندرية، فهاجموه وأنهوا حكمه القصير."
+        "explanation": "أثار قتلها غضب أهل الإسكندرية، فهاجموه وأنهوا حكمه القصير.",
+        "statementEn": "Ptolemy XI killed Berenice III shortly after his marriage to her.",
+        "explanationEn": "Her killing angered the people of Alexandria, so they attacked him and ended his short rule."
       },
       {
         "statement": "حكم بطليموس التاسع مصر مرة واحدة متصلة بلا إقصاء أو عودة إلى العرش.",
         "answer": false,
-        "explanation": "تخللت حكم بطليموس التاسع صراعات أسرية وإقصاء، ثم عاد إلى العرش في مرحلة لاحقة."
+        "explanation": "تخللت حكم بطليموس التاسع صراعات أسرية وإقصاء، ثم عاد إلى العرش في مرحلة لاحقة.",
+        "statementEn": "Ptolemy IX ruled Egypt once, continuously, without exclusion or return to the throne.",
+        "explanationEn": "Ptolemy IX's rule was marred by family conflicts and exclusion, and he returned to the throne at a later stage."
       }
     ],
     "essay": [
       {
         "question": "اشرح دلالة سعي بطليموس الثاني عشر للحصول على اعتراف روما بحكمه.",
-        "answer": "دفع بطليموس الثاني عشر مبلغًا كبيرًا لقاء اعتراف روما بحكمه. يدل ذلك على تزايد نفوذها السياسي وتراجع قدرة الملك البطلمي على تثبيت عرشه دون دعم خارجي."
+        "answer": "دفع بطليموس الثاني عشر مبلغًا كبيرًا لقاء اعتراف روما بحكمه. يدل ذلك على تزايد نفوذها السياسي وتراجع قدرة الملك البطلمي على تثبيت عرشه دون دعم خارجي.",
+        "questionEn": "Explain the significance of Ptolemy XII's quest to gain Rome's recognition of his rule.",
+        "answerEn": "Ptolemy XII paid a large sum for Rome's recognition of his rule. This indicates an increase in its political influence and a decline in the ability of the Ptolemaic king to establish his throne without external support."
       },
       {
         "question": "كيف يظهر بطليموس الثاني عشر في آثار معبد إدفو؟",
-        "answer": "يظهر الملك في مناظر على صرح معبد إدفو أمام حورس وحتحور. تدل هذه المناظر على استمرار تمثيل الملك البطلمي داخل الطقوس والرموز الدينية المصرية."
+        "answer": "يظهر الملك في مناظر على صرح معبد إدفو أمام حورس وحتحور. تدل هذه المناظر على استمرار تمثيل الملك البطلمي داخل الطقوس والرموز الدينية المصرية.",
+        "questionEn": "How does Ptolemy XII appear in the ruins of the Temple of Edfu?",
+        "answerEn": "Reliefs on the pylon of Edfu Temple show Ptolemy XII before Horus and Hathor. They demonstrate the continued use of Egyptian religious imagery to represent Ptolemaic kings."
       },
       {
         "question": "كيف أسهمت صراعات بطليموس التاسع والعاشر والحادي عشر في إضعاف الحكم البطلمي؟",
-        "answer": "تكرر التنافس العائلي والتدخل في وراثة العرش، وظهرت أزمات مثل الاستيلاء على ذهب تابوت الإسكندر وقتل برنيكي الثالثة. أضعفت هذه الوقائع شرعية الحكم واستقرار العاصمة."
+        "answer": "تكرر التنافس العائلي والتدخل في وراثة العرش، وظهرت أزمات مثل الاستيلاء على ذهب تابوت الإسكندر وقتل برنيكي الثالثة. أضعفت هذه الوقائع شرعية الحكم واستقرار العاصمة.",
+        "questionEn": "How did the conflicts of Ptolemy IX, X, and XI contribute to the weakening of Ptolemaic rule?",
+        "answerEn": "Family rivalries and interference in the succession to the throne were frequent, and crises such as the seizure of the gold of Alexander's sarcophagus and the murder of Berenice III arose. These facts weakened the legitimacy of governance and the stability of the capital."
       },
       {
         "question": "ما دلالة دفع بطليموس الثاني عشر المال لروما مقابل الاعتراف بحكمه؟",
-        "answer": "يدل على أن بقاء الملك على العرش صار مرتبطًا بتأييد قوة خارجية. أدى الاعتماد المالي والسياسي على روما إلى تقلص استقلال المملكة البطلمية في أواخر عهدها."
+        "answer": "يدل على أن بقاء الملك على العرش صار مرتبطًا بتأييد قوة خارجية. أدى الاعتماد المالي والسياسي على روما إلى تقلص استقلال المملكة البطلمية في أواخر عهدها.",
+        "questionEn": "What is the significance of Ptolemy XII paying money to Rome in exchange for recognition of his rule?",
+        "answerEn": "It indicates that the king's survival on the throne became linked to the support of an external power. Financial and political dependence on Rome led to the decline of the independence of the Ptolemaic Kingdom towards the end of its reign."
       }
     ]
   },
@@ -906,50 +1106,70 @@
       {
         "statement": "تظهر كليوباترا السابعة وابنها قيصرون في نقوش معبد دندرة.",
         "answer": true,
-        "explanation": "قدمت النقوش الأم والابن في إطار الشعائر المصرية، وهي شاهد على استمرار الرموز الملكية المحلية في نهاية العصر البطلمي."
+        "explanation": "قدمت النقوش الأم والابن في إطار الشعائر المصرية، وهي شاهد على استمرار الرموز الملكية المحلية في نهاية العصر البطلمي.",
+        "statementEn": "Cleopatra VII and her son Caesarion appear in Dendera Temple reliefs.",
+        "explanationEn": "The inscriptions present the mother and son in the context of Egyptian rituals, and are a witness to the continuation of local royal symbols at the end of the Ptolemaic period."
       },
       {
         "statement": "انتهى حكم كليوباترا من دون انتقال مصر إلى الحكم الروماني.",
         "answer": false,
-        "explanation": "أعقبت هزيمة تحالفها مع أنطوني نهاية الحكم البطلمي، ثم ضُمّت مصر إلى سلطة روما سنة 30 ق.م."
+        "explanation": "أعقبت هزيمة تحالفها مع أنطوني نهاية الحكم البطلمي، ثم ضُمّت مصر إلى سلطة روما سنة 30 ق.م.",
+        "statementEn": "Cleopatra's rule ended without Egypt transitioning to Roman rule.",
+        "explanationEn": "The defeat of her alliance with Antony followed the end of Ptolemaic rule, and Egypt was annexed to the authority of Rome in 30 BC."
       },
       {
         "statement": "أقيم احتفال «تبرعات الإسكندرية» سنة 34 ق.م في زمن أنطوني وكليوباترا.",
         "answer": true,
-        "explanation": "أعلن فيه توزيع ألقاب وأقاليم شرقية على كليوباترا وأبنائها، مما زاد التوتر مع أوكتافيوس."
+        "explanation": "أعلن فيه توزيع ألقاب وأقاليم شرقية على كليوباترا وأبنائها، مما زاد التوتر مع أوكتافيوس.",
+        "statementEn": "The “Donations of Alexandria” celebration was held in 34 BC during the time of Antony and Cleopatra.",
+        "explanationEn": "Antony announced eastern titles and territories for Cleopatra and her children, increasing tensions with Octavian."
       },
       {
         "statement": "وقعت معركة أكتيوم البحرية سنة 30 ق.م بعد ضم مصر إلى روما.",
         "answer": false,
-        "explanation": "وقعت أكتيوم سنة 31 ق.م؛ أما نهاية الحكم البطلمي وضم مصر فجاءا سنة 30 ق.م."
+        "explanation": "وقعت أكتيوم سنة 31 ق.م؛ أما نهاية الحكم البطلمي وضم مصر فجاءا سنة 30 ق.م.",
+        "statementEn": "The naval battle of Actium took place in 30 BC after the annexation of Egypt to Rome.",
+        "explanationEn": "Actium occurred in 31 BC; As for the end of Ptolemaic rule and the annexation of Egypt, it came in the year 30 BC."
       },
       {
         "statement": "ارتبط قيصرون بكليوباترا السابعة ويوليوس قيصر.",
         "answer": true,
-        "explanation": "حمل قيصرون اسم بطليموس الخامس عشر، وظهر مع أمه في نقوش دندرة."
+        "explanation": "حمل قيصرون اسم بطليموس الخامس عشر، وظهر مع أمه في نقوش دندرة.",
+        "statementEn": "Caesarion was associated with Cleopatra VII and Julius Caesar.",
+        "explanationEn": "Caesarion bore the name of Ptolemy XV, and appeared with his mother in Dendera inscriptions."
       },
       {
         "statement": "أُعلنت تبرعات الإسكندرية بعد معركة أكتيوم البحرية.",
         "answer": false,
-        "explanation": "أُعلنت التبرعات سنة 34 ق.م، قبل معركة أكتيوم التي وقعت سنة 31 ق.م."
+        "explanation": "أُعلنت التبرعات سنة 34 ق.م، قبل معركة أكتيوم التي وقعت سنة 31 ق.م.",
+        "statementEn": "the Donations of Alexandria were announced after the naval battle of Actium.",
+        "explanationEn": "The donations were announced in 34 BC, before the Battle of Actium, which took place in 31 BC."
       }
     ],
     "essay": [
       {
         "question": "اشرح أهمية نقوش دندرة في تقديم كليوباترا السابعة وقيصرون للزائر.",
-        "answer": "تُظهر النقوش الملكة وابنها في سياق ديني مصري، وهي شواهد مادية تساعد المرشد على ربط الأسماء المعروفة تاريخيًا بتمثيلهما الرسمي في المعابد المصرية."
+        "answer": "تُظهر النقوش الملكة وابنها في سياق ديني مصري، وهي شواهد مادية تساعد المرشد على ربط الأسماء المعروفة تاريخيًا بتمثيلهما الرسمي في المعابد المصرية.",
+        "questionEn": "Explain the importance of the Dendera inscriptions in introducing Cleopatra VII and Caesarion to the visitor.",
+        "answerEn": "The inscriptions show the queen and her son in an Egyptian religious context, and are physical evidence that helps the guide connect the historically known names to their official representation in Egyptian temples."
       },
       {
         "question": "لخّص العلاقة بين نهاية حكم كليوباترا السابعة وانتقال مصر إلى الحكم الروماني.",
-        "answer": "انتهى حكم كليوباترا السابعة بعد هزيمة تحالفها مع أنطوني أمام أوكتافيوس في أكتيوم سنة 31 ق.م. دخلت مصر بعد ذلك في الحكم الروماني سنة 30 ق.م، فانتهت الأسرة البطلمية الحاكمة."
+        "answer": "انتهى حكم كليوباترا السابعة بعد هزيمة تحالفها مع أنطوني أمام أوكتافيوس في أكتيوم سنة 31 ق.م. دخلت مصر بعد ذلك في الحكم الروماني سنة 30 ق.م، فانتهت الأسرة البطلمية الحاكمة.",
+        "questionEn": "Summarize the relationship between the end of Cleopatra VII's rule and Egypt's transition to Roman rule.",
+        "answerEn": "Cleopatra VII's rule ended after her alliance with Antony was defeated by Octavian ​​at Actium in 31 BC. Egypt then entered Roman rule in 30 BC, and the Ptolemaic ruling dynasty ended."
       },
       {
         "question": "كيف أثرت تحالفات كليوباترا السابعة مع قيصر ثم أنطوني في موقع مصر السياسي؟",
-        "answer": "ساعد تحالفها مع يوليوس قيصر على تثبيت حكمها، ثم جعلها تحالفها مع مارك أنطوني طرفًا في صراع السلطة الرومانية. زاد احتفال تبرعات الإسكندرية التوتر مع أوكتافيوس حتى المواجهة العسكرية."
+        "answer": "ساعد تحالفها مع يوليوس قيصر على تثبيت حكمها، ثم جعلها تحالفها مع مارك أنطوني طرفًا في صراع السلطة الرومانية. زاد احتفال تبرعات الإسكندرية التوتر مع أوكتافيوس حتى المواجهة العسكرية.",
+        "questionEn": "How did Cleopatra VII's alliances with Caesar and then Antony affect Egypt's political position?",
+        "answerEn": "Her alliance with Julius Caesar helped consolidate her rule, and then her alliance with Mark Antony made her a party in the Roman power struggle. the Donations of Alexandria increased tension with Octavian ​​until a military confrontation."
       },
       {
         "question": "رتب الأحداث من تبرعات الإسكندرية إلى تحول مصر إلى ولاية رومانية.",
-        "answer": "أُعلنت تبرعات الإسكندرية سنة 34 ق.م، ثم تصاعد صراع أنطوني وكليوباترا مع أوكتافيوس. هُزم تحالفهما في أكتيوم سنة 31 ق.م، وانتهى حكم كليوباترا وضُمّت مصر إلى روما سنة 30 ق.م."
+        "answer": "أُعلنت تبرعات الإسكندرية سنة 34 ق.م، ثم تصاعد صراع أنطوني وكليوباترا مع أوكتافيوس. هُزم تحالفهما في أكتيوم سنة 31 ق.م، وانتهى حكم كليوباترا وضُمّت مصر إلى روما سنة 30 ق.م.",
+        "questionEn": "Put the events from the Donations of Alexandria to Egypt’s annexation by Rome in chronological order.",
+        "answerEn": "The donations to Alexandria were announced in 34 BC, and then Antony and Cleopatra's conflict with Octavian escalated. Their alliance was defeated at Actium in 31 BC. Cleopatra's rule ended and Egypt was annexed to Rome in 30 BC."
       }
     ]
   },

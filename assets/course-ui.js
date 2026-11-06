@@ -17,6 +17,7 @@
       const bank = window.__tourismCourseQuestions;
       const entry = bank[`${match[1]}/${match[2]}`];
       if (!entry?.trueFalse?.length || !entry?.essay?.length) return;
+      const englishExam = match[1] === 'graeco-roman';
 
       const make = (tag, className, content) => {
         const node = document.createElement(tag);
@@ -24,24 +25,34 @@
         if (content) node.textContent = content;
         return node;
       };
-      const truthSection = make('section', 'course-self-test');
-      truthSection.setAttribute('aria-label', 'أسئلة صح أو خطأ');
-      truthSection.append(make('h4', '', 'صح أم خطأ؟'));
-      truthSection.append(make('p', 'course-question-hint', 'اختر إجابتك قبل قراءة التصحيح.'));
+      const truthSection = make('section', `course-self-test${englishExam ? ' course-self-test--en' : ''}`);
+      truthSection.setAttribute('aria-label', englishExam ? 'True or false questions' : 'أسئلة صح أو خطأ');
+      truthSection.append(make('h4', '', englishExam ? 'True or false?' : 'صح أم خطأ؟'));
+      truthSection.append(make('p', 'course-question-hint', englishExam ? 'Choose your answer before reading the explanation.' : 'اختر إجابتك قبل قراءة التصحيح.'));
       entry.trueFalse.forEach((item, index) => {
         const card = make('div', 'course-question-card');
-        card.append(make('p', 'course-question-text', `${index + 1}. ${item.statement}`));
+        card.append(make('p', 'course-question-text', `${index + 1}. ${englishExam ? item.statementEn : item.statement}`));
         const choices = make('div', 'course-truth-choices');
         const feedback = make('p', 'course-question-feedback');
         feedback.setAttribute('role', 'status');
-        for (const [label, value] of [['صح', true], ['خطأ', false]]) {
+        for (const [label, value] of englishExam ? [['True', true], ['False', false]] : [['صح', true], ['خطأ', false]]) {
           const button = make('button', '', label);
           button.type = 'button';
           button.addEventListener('click', () => {
             choices.querySelectorAll('button').forEach(choice => {
               choice.setAttribute('aria-pressed', String(choice === button));
             });
-            feedback.textContent = `${value === item.answer ? 'إجابة صحيحة.' : 'إجابة غير صحيحة.'} ${item.explanation}`;
+            feedback.textContent = englishExam
+              ? `${value === item.answer ? 'Correct.' : 'Not quite.'} ${item.explanationEn}`
+              : `${value === item.answer ? 'إجابة صحيحة.' : 'إجابة غير صحيحة.'} ${item.explanation}`;
+            if (englishExam) {
+              const translation = make('div', 'course-question-translation');
+              translation.setAttribute('dir', 'rtl');
+              translation.append(make('span', 'course-translation-label', 'الترجمة العربية'));
+              translation.append(make('p', '', `السؤال: ${item.statement}`));
+              translation.append(make('p', '', `التفسير: ${item.explanation}`));
+              feedback.append(translation);
+            }
             feedback.dataset.correct = String(value === item.answer);
           });
           button.setAttribute('aria-pressed', 'false');
@@ -51,16 +62,24 @@
         truthSection.append(card);
       });
 
-      const essaySection = make('section', 'course-self-test course-essay-section');
-      essaySection.setAttribute('aria-label', 'الأسئلة المقالية');
-      essaySection.append(make('h4', '', 'الأسئلة المقالية'));
-      essaySection.append(make('p', 'course-question-hint', 'كوّن إجابتك أولًا، ثم افتح الإجابة النموذجية للمراجعة.'));
+      const essaySection = make('section', `course-self-test course-essay-section${englishExam ? ' course-self-test--en' : ''}`);
+      essaySection.setAttribute('aria-label', englishExam ? 'Essay questions' : 'الأسئلة المقالية');
+      essaySection.append(make('h4', '', englishExam ? 'Essay questions' : 'الأسئلة المقالية'));
+      essaySection.append(make('p', 'course-question-hint', englishExam ? 'Write your answer first, then reveal the model answer and Arabic translation.' : 'كوّن إجابتك أولًا، ثم افتح الإجابة النموذجية للمراجعة.'));
       entry.essay.forEach((item, index) => {
         const card = make('div', 'course-question-card');
-        card.append(make('p', 'course-question-text', `${index + 1}. ${item.question}`));
+        card.append(make('p', 'course-question-text', `${index + 1}. ${englishExam ? item.questionEn : item.question}`));
         const answer = make('details', 'course-answer');
-        answer.append(make('summary', '', 'اعرض الإجابة النموذجية'));
-        answer.append(make('p', '', item.answer));
+        answer.append(make('summary', '', englishExam ? 'Show model answer + Arabic translation' : 'اعرض الإجابة النموذجية'));
+        answer.append(make('p', '', englishExam ? item.answerEn : item.answer));
+        if (englishExam) {
+          const translation = make('div', 'course-question-translation');
+          translation.setAttribute('dir', 'rtl');
+          translation.append(make('span', 'course-translation-label', 'الترجمة العربية'));
+          translation.append(make('p', '', `السؤال: ${item.question}`));
+          translation.append(make('p', '', `الإجابة: ${item.answer}`));
+          answer.append(translation);
+        }
         card.append(answer);
         essaySection.append(card);
       });
