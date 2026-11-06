@@ -24,6 +24,7 @@ import {
   MessageCircle
 } from "lucide-react";
 import { courseIntro, presentationHelperVocab, lessonsData } from "./data.js";
+import { chooseSpanishVoice, isSpanishVoice } from "./spanishSpeech.js";
 
 // مكون مشغل الصوت والفيديو المدمج (SoundCloud كخيار افتراضي + YouTube كبديل مدمج)
 function MediaEmbedPlayer({ soundcloudUrl, videoUrl, youtubeId, title, trackNumber, duration }) {
@@ -944,6 +945,12 @@ export default function App() {
   const [showIntroModal, setShowIntroModal] = useState(false);
   const [showLessonGrid, setShowLessonGrid] = useState(false);
   const [revealedPrompts, setRevealedPrompts] = useState({});
+  const [spanishVoices, setSpanishVoices] = useState([]);
+  const [voiceMessage, setVoiceMessage] = useState("");
+  const [preferredVoiceUri, setPreferredVoiceUri] = useState(() => {
+    try { return localStorage.getItem("tg_spanish_voice_v1") || ""; }
+    catch { return ""; }
+  });
 
   const [masteredWords, setMasteredWords] = useState(() => {
     try {
@@ -970,17 +977,46 @@ export default function App() {
     }
   }, [currentLessonIndex]);
 
+  useEffect(() => {
+    if (!("speechSynthesis" in window)) return;
+    const refreshVoices = () => setSpanishVoices(window.speechSynthesis.getVoices().filter(isSpanishVoice));
+    refreshVoices();
+    window.speechSynthesis.addEventListener("voiceschanged", refreshVoices);
+    return () => window.speechSynthesis.removeEventListener("voiceschanged", refreshVoices);
+  }, []);
+
+  useEffect(() => {
+    try { localStorage.setItem("tg_spanish_voice_v1", preferredVoiceUri); }
+    catch { /* Voice choice remains usable without storage. */ }
+  }, [preferredVoiceUri]);
+
   const currentLesson = lessonsData[currentLessonIndex];
 
   const speakSpanish = (text) => {
-    if (typeof window !== "undefined" && "speechSynthesis" in window) {
-      window.speechSynthesis.cancel();
-      const cleaned = text.replace(/\s*\/.*$/, "").trim();
-      const utterance = new SpeechSynthesisUtterance(cleaned);
-      utterance.lang = "es-ES";
-      utterance.rate = 0.9;
-      window.speechSynthesis.speak(utterance);
+    if (!("speechSynthesis" in window)) {
+      setVoiceMessage("المتصفح لا يدعم النطق الآلي. يمكنك سماع التسجيل البشري في مشغل الدرس.");
+      return;
     }
+    const voice = chooseSpanishVoice(window.speechSynthesis.getVoices(), preferredVoiceUri);
+    if (!voice) {
+      setVoiceMessage("لا يوجد صوت إسباني على هذا الجهاز. أضف صوتًا إسبانيًا من إعدادات النظام أو استمع للتسجيل البشري أعلى الدرس.");
+      return;
+    }
+    const cleaned = String(text || "").trim();
+    if (!cleaned) return;
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(cleaned);
+    utterance.voice = voice;
+    utterance.lang = voice.lang;
+    utterance.rate = 1;
+    utterance.pitch = 1;
+    utterance.onerror = event => {
+      if (event.error !== "interrupted" && event.error !== "canceled") {
+        setVoiceMessage("تعذّر تشغيل هذا الصوت. اختر صوتًا إسبانيًا آخر أو استمع للتسجيل البشري أعلى الدرس.");
+      }
+    };
+    setVoiceMessage("");
+    window.speechSynthesis.speak(utterance);
   };
 
   const toggleMastered = (word) => {
@@ -1206,6 +1242,22 @@ export default function App() {
               trackNumber={currentLesson.trackNumber}
               duration={currentLesson.duration}
             />
+            <div className="flex flex-wrap items-center gap-2 rounded-xl border border-[#d8bd85] bg-white/80 dark:bg-slate-900 px-3 py-2 text-xs">
+              <label htmlFor="spanish-voice" className="font-bold text-slate-700 dark:text-slate-200">صوت الكلمات والأمثلة</label>
+              <select
+                id="spanish-voice"
+                value={preferredVoiceUri}
+                onChange={event => { setPreferredVoiceUri(event.target.value); setVoiceMessage(""); }}
+                disabled={spanishVoices.length === 0}
+                className="max-w-full min-w-0 flex-1 sm:flex-none rounded-lg border border-slate-300 bg-white px-2 py-1.5 text-slate-800 dark:border-slate-600 dark:bg-slate-800 dark:text-white"
+              >
+                <option value="">أفضل صوت إسباني متاح تلقائيًا</option>
+                {spanishVoices.map(voice => <option key={voice.voiceURI} value={voice.voiceURI}>{voice.name} ({voice.lang})</option>)}
+              </select>
+              <button type="button" onClick={() => speakSpanish("Hola, bienvenidos a Egipto.")} className="rounded-lg bg-[#185f65] px-3 py-1.5 font-bold text-white hover:bg-[#124b50]">جرّب الصوت</button>
+              <span className="text-slate-500 dark:text-slate-400">تسجيل الدرس أعلاه بصوت بشري؛ هذا الاختيار لأزرار النطق.</span>
+              {voiceMessage && <p role="status" className="w-full text-amber-800 dark:text-amber-300">{voiceMessage}</p>}
+            </div>
           </section>
 
           {/* 2. الشرح الأول بعد المشغل باللغة الإنجليزية متبوعاً بالشرح العربي المبسط ثم الأمثلة الموسعة */}
