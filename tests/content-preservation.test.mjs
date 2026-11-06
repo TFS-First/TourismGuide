@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import { getDatasets,loadLessons,validateLessons,assembleSource,json,sha256,read } from '../scripts/project.mjs';
 const original=json('tests/fixtures/refactor-baseline.json');
-test('original content is unchanged outside the explicit source-reviewed grammar corrections',()=>{
+test('original content is unchanged outside the explicit reviewed corrections',()=>{
  const lessons=loadLessons().filter(l=>['lesson1','lesson2','lesson3'].includes(l.id));
  const fullReview=json('tests/fixtures/full-content-review.json');
  const undo=(target,change)=>{for(const key of change.path.slice(0,-1))target=target[key];const key=change.path.at(-1);if(change.removed){assert.equal(Object.hasOwn(target,key),false);target[key]=change.before;}else{assert.deepEqual(target[key],change.after,'Full review changed at '+change.file+':'+change.path.join('.'));if(change.added)delete target[key];else target[key]=change.before;}};
@@ -16,6 +16,13 @@ test('original content is unchanged outside the explicit source-reviewed grammar
  const lesson3=lessons.find(l=>l.id==='lesson3');
  for(const change of reviewed.changes){let target=lesson3;for(const key of change.path.slice(0,-1))target=target[key];const key=change.path.at(-1);assert.deepEqual(target[key],change.after,'Reviewed value changed at '+change.path.join('.'));if(change.added)delete target[key];else target[key]=change.before;}
  const datasets=getDatasets(lessons);
+ // These two Arabic sound labels were reviewed on the original site and explicitly copied here.
+ for(const [gardiner,corrected,previous] of [['F32','غ','خ مرققة (تقريب تعليمي)'],['V13','ث','تش']]){
+  const sign=datasets.hieroglyphsData.find(item=>item.gardiner===gardiner);
+  assert.ok(sign,`Missing ${gardiner} sign`);
+  assert.equal(sign.soundAr,corrected,`Reviewed Arabic sound changed for ${gardiner}`);
+  sign.soundAr=previous;
+ }
  const sharedNames={'src/data/shared/hieroglyphs.json':'hieroglyphsData','src/data/shared/phonograms.json':'phonogramsData','src/data/shared/comprehensive-quiz.json':'comprehensiveQuizData'};
  for(const change of fullReview.changes.filter(c=>sharedNames[c.file]))undo(datasets[sharedNames[change.file]],change);
  for(const change of reviewed.sharedQuizChanges){let target=datasets.comprehensiveQuizData;for(const key of change.path.slice(0,-1))target=target[key];const key=change.path.at(-1);assert.equal(target[key],change.after);target[key]=change.before;}
