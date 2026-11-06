@@ -1052,7 +1052,7 @@ export default function App() {
             </div>
 
             <div className="flex items-center gap-2">
-              <a href="../" className="text-xs font-bold px-3 py-1.5 rounded-xl bg-white text-[#185f65] border border-[#d8bd85] hover:bg-[#faf5eb] transition whitespace-nowrap">بوابة المواد</a>
+              <a href="../spanish-language/" className="text-xs font-bold px-3 py-1.5 rounded-xl bg-white text-[#185f65] border border-[#d8bd85] hover:bg-[#faf5eb] transition whitespace-nowrap">صفحة المادة</a>
               <button
                 onClick={() => setShowIntroModal(!showIntroModal)}
                 className="text-xs font-semibold px-3 py-1.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-700 dark:text-amber-300 border border-amber-500/30 transition flex items-center gap-1.5"

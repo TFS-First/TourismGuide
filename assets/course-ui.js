@@ -1,4 +1,67 @@
 (() => {
+  const questionsUrl = new URL('./course-questions.json', document.currentScript.src);
+  const addSelfTests = async () => {
+    const quiz = document.querySelector('#quiz > details.course-fold > .course-fold-body');
+    const match = location.pathname.match(/\/(history|graeco-roman|islamic-history|modern-history)\/(lecture-\d+)\.html$/);
+    if (!quiz || !match) return;
+    try {
+      const response = await fetch(questionsUrl);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const bank = await response.json();
+      const entry = bank[`${match[1]}/${match[2]}`];
+      if (!entry?.trueFalse?.length || !entry?.essay?.length) return;
+
+      const make = (tag, className, content) => {
+        const node = document.createElement(tag);
+        if (className) node.className = className;
+        if (content) node.textContent = content;
+        return node;
+      };
+      const truthSection = make('section', 'course-self-test');
+      truthSection.setAttribute('aria-label', 'أسئلة صح أو خطأ');
+      truthSection.append(make('h4', '', 'صح أم خطأ؟'));
+      truthSection.append(make('p', 'course-question-hint', 'اختر إجابتك قبل قراءة التصحيح.'));
+      entry.trueFalse.forEach((item, index) => {
+        const card = make('div', 'course-question-card');
+        card.append(make('p', 'course-question-text', `${index + 1}. ${item.statement}`));
+        const choices = make('div', 'course-truth-choices');
+        const feedback = make('p', 'course-question-feedback');
+        feedback.setAttribute('role', 'status');
+        for (const [label, value] of [['صح', true], ['خطأ', false]]) {
+          const button = make('button', '', label);
+          button.type = 'button';
+          button.addEventListener('click', () => {
+            choices.querySelectorAll('button').forEach(choice => {
+              choice.setAttribute('aria-pressed', String(choice === button));
+            });
+            feedback.textContent = `${value === item.answer ? 'إجابة صحيحة.' : 'إجابة غير صحيحة.'} ${item.explanation}`;
+            feedback.dataset.correct = String(value === item.answer);
+          });
+          button.setAttribute('aria-pressed', 'false');
+          choices.append(button);
+        }
+        card.append(choices, feedback);
+        truthSection.append(card);
+      });
+
+      const essaySection = make('section', 'course-self-test course-essay-section');
+      essaySection.setAttribute('aria-label', 'الأسئلة المقالية');
+      essaySection.append(make('h4', '', 'الأسئلة المقالية'));
+      essaySection.append(make('p', 'course-question-hint', 'كوّن إجابتك أولًا، ثم افتح الإجابة النموذجية للمراجعة.'));
+      entry.essay.forEach((item, index) => {
+        const card = make('div', 'course-question-card');
+        card.append(make('p', 'course-question-text', `${index + 1}. ${item.question}`));
+        const answer = make('details', 'course-answer');
+        answer.append(make('summary', '', 'اعرض الإجابة النموذجية'));
+        answer.append(make('p', '', item.answer));
+        card.append(answer);
+        essaySection.append(card);
+      });
+      quiz.append(truthSection, essaySection);
+    } catch (error) {
+      console.error('تعذر تحميل أسئلة المحاضرة:', error);
+    }
+  };
   const revealHash = () => {
     if (!location.hash) return;
     const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
@@ -13,6 +76,7 @@
   };
   window.addEventListener('hashchange', revealHash);
   window.addEventListener('DOMContentLoaded', () => {
+    addSelfTests();
     document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, small, span').forEach(element => {
       if (element.children.length) return;
       const value = element.textContent.trim();

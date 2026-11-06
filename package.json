@@ -5,7 +5,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "build:spanish": "npm --prefix spanish-src run build",
-    "check": "node scripts/check.mjs && node scripts/check-site-links.mjs && node spanish-src/scripts/check-data.mjs",
+    "check": "node scripts/check.mjs && node scripts/check-site-links.mjs && node scripts/check-course-questions.mjs && node spanish-src/scripts/check-data.mjs",
     "test": "node --test tests/*.test.mjs"
   }
 }
