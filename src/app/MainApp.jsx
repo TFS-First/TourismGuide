@@ -5,7 +5,7 @@ function MainApp() {
       if (['learn', 'vocab', 'grammar', 'exercises'].includes(hash)) {
         return hash;
       }
-      const saved = localStorage.getItem('tourism2026_active_tab');
+      const saved = localStorage.getItem('tourismguide_active_tab');
       if (saved && ['learn', 'vocab', 'grammar', 'exercises'].includes(saved)) {
         return saved;
       }
@@ -19,7 +19,7 @@ function MainApp() {
       if (['learn', 'vocab', 'grammar', 'exercises'].includes(hash)) {
         return false;
       }
-      const hasStarted = localStorage.getItem('tourism2026_has_started');
+      const hasStarted = localStorage.getItem('tourismguide_has_started');
       return hasStarted !== 'true';
     } catch (e) {}
     return true;
@@ -131,8 +131,8 @@ function MainApp() {
     setActiveTab(tabId);
     window.scrollTo({ top: 0, behavior: 'smooth' });
     try {
-      localStorage.setItem('tourism2026_active_tab', tabId);
-      localStorage.setItem('tourism2026_has_started', 'true');
+      localStorage.setItem('tourismguide_active_tab', tabId);
+      localStorage.setItem('tourismguide_has_started', 'true');
       window.location.hash = tabId;
     } catch (e) {}
   };
@@ -141,8 +141,8 @@ function MainApp() {
     setActiveTab(targetTab);
     setShowLanding(false);
     try {
-      localStorage.setItem('tourism2026_has_started', 'true');
-      localStorage.setItem('tourism2026_active_tab', targetTab);
+      localStorage.setItem('tourismguide_has_started', 'true');
+      localStorage.setItem('tourismguide_active_tab', targetTab);
       window.location.hash = targetTab;
     } catch (e) {}
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -151,7 +151,7 @@ function MainApp() {
   const handleReturnToLanding = () => {
     setShowLanding(true);
     try {
-      localStorage.setItem('tourism2026_has_started', 'false');
+      localStorage.setItem('tourismguide_has_started', 'false');
       if (window.location.hash) {
         history.pushState("", document.title, window.location.pathname + window.location.search);
       }
