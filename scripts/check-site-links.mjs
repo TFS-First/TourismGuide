@@ -34,7 +34,13 @@ for (const page of ['index.html', 'portal.html', 'ancient-egyptian-language/inde
   assert(meta('og:title') && meta('og:description'), `${page}: missing social title or description`);
   const image = meta('og:image');
   assert(image?.startsWith('https://tfs-first.github.io/TourismGuide/assets/'), `${page}: missing absolute social image`);
-  assert(fs.existsSync(path.join(root, new URL(image).pathname.replace('/TourismGuide/', ''))), `${page}: social image is missing`);
+  const imagePath = path.join(root, new URL(image).pathname.replace('/TourismGuide/', ''));
+  assert(fs.existsSync(imagePath), `${page}: social image is missing`);
+  assert.equal(meta('og:image:secure_url'), image, `${page}: social image secure URL mismatch`);
+  assert.equal(meta('og:image:type'), 'image/jpeg', `${page}: social image must be JPEG`);
+  assert(image.endsWith('.jpg'), `${page}: social image URL must point to JPEG`);
+  assert(fs.readFileSync(imagePath).subarray(0, 3).equals(Buffer.from([0xff, 0xd8, 0xff])), `${page}: invalid JPEG`);
+  assert(fs.statSync(imagePath).size < 300_000, `${page}: social image is too large`);
   assert.equal(meta('twitter:image'), image, `${page}: social image mismatch`);
 }
 console.log('Checked social sharing metadata for the portal and all five subjects.');
