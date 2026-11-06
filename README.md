@@ -2,7 +2,7 @@
 
 الموقع العام: https://tfs-first.github.io/TourismGuide/
 
-هذه نسخة مستقلة من بوابة المواد. الصفحة الرئيسية مصدرها `portal.html` وتولّد في `index.html` عبر `npm run build`. تطبيق اللغة المصرية القديمة مصدره `src/` ويولّد في `ancient-egyptian-language/index.html`. بقية المواد في `history/` و`graeco-roman/` و`islamic-history/` و`modern-history/`. رابط التطبيق القديم `https://tfs-first.github.io/Tourism2026/` في مستودع مستقل ولا تنشر عليه مواد البوابة.
+هذه نسخة مستقلة من بوابة المواد. الصفحة الرئيسية مصدرها `portal.html` وتولّد في `index.html` عبر `npm run build`. تطبيق اللغة المصرية القديمة مصدره `src/` ويولّد في `ancient-egyptian-language/index.html`. مواد التاريخ في `history/` و`graeco-roman/` و`islamic-history/` و`modern-history/`. صفحة `spanish-language/` تعرض مادة الإسبانية وصورة مشاركتها، ودروسها قيد التجهيز. رابط التطبيق القديم `https://tfs-first.github.io/Tourism2026/` في مستودع مستقل ولا تنشر عليه مواد البوابة.
 
 اقرأ [AGENTS.md](AGENTS.md) قبل العمل، سواء كنت مطورًا أو مساعد AI.
 التنظيم الجديد يفصل المحتوى عن العرض مع الحفاظ على واجهة وسلوك الدروس الحالية.

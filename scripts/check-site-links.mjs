@@ -4,7 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const pages = ['index.html', 'portal.html', 'ancient-egyptian-language/index.html'];
+const pages = ['index.html', 'portal.html', 'ancient-egyptian-language/index.html', 'spanish-language/index.html'];
 for (const dir of ['history', 'graeco-roman', 'islamic-history', 'modern-history']) {
   pages.push(...fs.readdirSync(path.join(root, dir))
     .filter(name => name.endsWith('.html')).map(name => `${dir}/${name}`));
@@ -24,7 +24,7 @@ for (const page of pages) {
 }
 console.log(`Checked ${count} local page and asset links across ${pages.length} pages.`);
 
-for (const page of ['index.html', 'portal.html', 'ancient-egyptian-language/index.html',
+for (const page of ['index.html', 'portal.html', 'ancient-egyptian-language/index.html', 'spanish-language/index.html',
   'history/index.html', 'graeco-roman/index.html', 'islamic-history/index.html',
   'modern-history/index.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
@@ -43,4 +43,4 @@ for (const page of ['index.html', 'portal.html', 'ancient-egyptian-language/inde
   assert(fs.statSync(imagePath).size < 300_000, `${page}: social image is too large`);
   assert.equal(meta('twitter:image'), image, `${page}: social image mismatch`);
 }
-console.log('Checked social sharing metadata for the portal and all five subjects.');
+console.log('Checked social sharing metadata for the portal and all six subjects.');
