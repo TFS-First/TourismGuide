@@ -1,0 +1,686 @@
+[
+  {
+    "id": "bi_pr",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓉐",
+    "gardiner": "O1",
+    "trans": "pr",
+    "categoryAr": "مخطط منزل أو دار",
+    "meanAr": "بيت / دار / ضيعة",
+    "meanEn": "house, estate",
+    "complements": "𓂋 (r)",
+    "example": {
+      "h": "𓉐:𓏤",
+      "trans": "pr",
+      "mean": "بيت"
+    },
+    "note": "من أشهر العلامات الثنائية؛ يكتب غالباً مع المتمم الصوتي r (𓂋)."
+  },
+  {
+    "id": "bi_mr",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓌸",
+    "gardiner": "U6",
+    "trans": "mr",
+    "categoryAr": "فأس زراعية (معزقة)",
+    "meanAr": "قيمة mr؛ في mrỉ «يحب»",
+    "meanEn": "mr; in mrỉ, to love",
+    "complements": "𓂋 (r)",
+    "example": {
+      "h": "𓌸*𓂋*𓇋",
+      "trans": "mrỉ",
+      "mean": "يحب"
+    },
+    "note": "يأتي منه الفعل الشهير 'مري' بمعنى يُحب أو يعشق."
+  },
+  {
+    "id": "bi_mn",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓏠",
+    "gardiner": "Y5",
+    "trans": "mn",
+    "categoryAr": "لوحة لعبة السنت وقطعها",
+    "meanAr": "يثبت / يبقى / يدوم",
+    "meanEn": "endure, remain, be firm",
+    "complements": "𓈖 (n)",
+    "example": {
+      "h": "𓏠:𓈖",
+      "trans": "mn",
+      "mean": "يثبت"
+    },
+    "note": "موجود في اسم المعبود آمون (إمن 𓇋𓏠𓈖) وفي اسم توت عنخ آمون."
+  },
+  {
+    "id": "bi_nb",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓎟",
+    "gardiner": "V30",
+    "trans": "nb",
+    "categoryAr": "سلة خوص (نب)",
+    "meanAr": "سيد / مالك / كل / جميع",
+    "meanEn": "lord, master; every, all",
+    "complements": "𓃀 (b)",
+    "example": {
+      "h": "𓎟",
+      "trans": "nb",
+      "mean": "سيد / كل"
+    },
+    "note": "من أكثر العلامات تكراراً؛ تعني 'سيد' كما في 'نب تاوي' (سيد الأرضين)، أو 'كل'."
+  },
+  {
+    "id": "bi_wr",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓅨",
+    "gardiner": "G36",
+    "trans": "wr",
+    "categoryAr": "طائر السنونو (الخطاف)",
+    "meanAr": "عظيم / كبير / رئيس",
+    "meanEn": "great, large, elder",
+    "complements": "𓂋 (r)",
+    "example": {
+      "h": "𓅨:𓂋",
+      "trans": "wr",
+      "mean": "عظيم"
+    },
+    "note": "يدل على العظمة والمكانة الرفيعة؛ المكمل الشائع هو الفم r (𓂋)."
+  },
+  {
+    "id": "bi_k3",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓂓",
+    "gardiner": "D28",
+    "trans": "k3",
+    "categoryAr": "ذراعان مرفوعتان للأعلى",
+    "meanAr": "الكا / القرين؛ قوة الحياة",
+    "meanEn": "Ka, soul, spirit",
+    "complements": "𓄿 (3)",
+    "example": {
+      "h": "𓂓:𓏤",
+      "trans": "k3",
+      "mean": "القرين (كا)"
+    },
+    "note": "مفهوم الكا الأساسي في العقيدة المصرية للبعث والخلود."
+  },
+  {
+    "id": "bi_ib",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓄣",
+    "gardiner": "F34",
+    "trans": "ỉb",
+    "categoryAr": "قلب بقر مع الأوعية الدموية",
+    "meanAr": "قلب / عاطفة / رغبة",
+    "meanEn": "heart, wish",
+    "complements": "𓃀 (b)",
+    "example": {
+      "h": "𓄣:𓏤",
+      "trans": "ỉb",
+      "mean": "قلب"
+    },
+    "note": "القلب مركز التفكير والضمير عند المصري القديم الذي يوزن في المحاكمة."
+  },
+  {
+    "id": "bi_mw",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓈗",
+    "gardiner": "N35A",
+    "trans": "mw",
+    "categoryAr": "ثلاث موجات ماء متتالية",
+    "meanAr": "ماء / سائل",
+    "meanEn": "water",
+    "complements": "𓅱 (w)",
+    "example": {
+      "h": "𓈗",
+      "trans": "mw",
+      "mean": "ماء"
+    },
+    "note": "أصل كلمة 'مَيّة' في العامية المصرية، أصلها المصري القديم mw (مو)."
+  },
+  {
+    "id": "bi_wn",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓃹",
+    "gardiner": "E34",
+    "trans": "wn",
+    "categoryAr": "أرنب صحراوي",
+    "meanAr": "يفتح / يوجد / يكون",
+    "meanEn": "open, exist, be",
+    "complements": "𓈖 (n)",
+    "example": {
+      "h": "𓃹:𓈖",
+      "trans": "wn",
+      "mean": "يوجد / يكون"
+    },
+    "note": "فعل الكينونة الوجودي wn الشهير في قواعد اللغة المصرية."
+  },
+  {
+    "id": "bi_sw",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓇓",
+    "gardiner": "M23",
+    "trans": "sw",
+    "categoryAr": "نبات السوت (رمز الجنوب)",
+    "meanAr": "قيمة sw؛ تدخل في nsw «ملك»",
+    "meanEn": "sw; in nsw, king",
+    "complements": "𓅱 (w)",
+    "example": {
+      "h": "𓇓:𓏏",
+      "trans": "nswt",
+      "mean": "ملك"
+    },
+    "note": "M23 علامة السوت ذات القيمة sw؛ لا تترجم العلامة منفردة دائمًا إلى «ملك» أو إلى الضمير «هو»."
+  },
+  {
+    "id": "bi_t3",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓇿",
+    "gardiner": "N17",
+    "trans": "t3",
+    "categoryAr": "قطاع شريط الأرض مع ذرات الرمل",
+    "meanAr": "أرض / بلاد / يابسة",
+    "meanEn": "earth, land",
+    "complements": "𓄿 (3)",
+    "example": {
+      "h": "𓇿:𓏤",
+      "trans": "t3",
+      "mean": "أرض"
+    },
+    "note": "مثل 'تا-مري' (أرض الحبيبة / مصر) و'تا-وي' (الأرضين: الصعيد والدلتا)."
+  },
+  {
+    "id": "bi_dd",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓊽",
+    "gardiner": "R11",
+    "trans": "ḏd",
+    "categoryAr": "عمود الجد (العمود الفقري لأوزير)",
+    "meanAr": "ثبات / استقرار / دوام",
+    "meanEn": "stability, endure",
+    "complements": "𓂧 (d)",
+    "example": {
+      "h": "𓊽:𓂧",
+      "trans": "ḏd",
+      "mean": "ثبات"
+    },
+    "note": "أشهر تميمة للحفظ والثبات عند الفراعنة، وترمز لفقرات أوزيريس."
+  },
+  {
+    "id": "bi_s3",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓅭",
+    "gardiner": "G39",
+    "trans": "s3",
+    "categoryAr": "بطة طويلة الذيل (Pintail duck)",
+    "meanAr": "ابن / سلالة",
+    "meanEn": "son",
+    "complements": "𓄿 (3)",
+    "example": {
+      "h": "𓅭:𓂋*𓂝*𓇳",
+      "trans": "s3-rʿ",
+      "mean": "ابن رع (لقب ملكي)"
+    },
+    "note": "العلامة الأشهر في الألقاب الفرعونية الملكية: 'سا رع' (ابن الشمس)."
+  },
+  {
+    "id": "bi_pa",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓅮",
+    "gardiner": "G40",
+    "trans": "pꜣ",
+    "categoryAr": "طائر يحلق ويفرد جناحيه",
+    "meanAr": "يطير؛ pꜣ أداة تعريف «الـ» في مراحل لاحقة",
+    "meanEn": "fly; later definite article the",
+    "complements": "𓄿 (3)",
+    "example": {
+      "h": "𓅮",
+      "trans": "pꜣ",
+      "mean": "هذا / يطير"
+    },
+    "note": "G40 قيمتها pꜣ؛ في جاردنر ترتبط بفعل الطيران وبأداة التعريف اللاحقة، وليست ترجمة ثابتة لـ«هذا» في المصرية الوسطى."
+  },
+  {
+    "id": "bi_hr",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓁷",
+    "gardiner": "D2",
+    "trans": "ḥr",
+    "categoryAr": "وجه إنسان أمامي",
+    "meanAr": "وجه / على / فوق / عند",
+    "meanEn": "face; upon, on",
+    "complements": "𓂋 (r)",
+    "example": {
+      "h": "𓁷:𓏤",
+      "trans": "ḥr",
+      "mean": "وجه / على"
+    },
+    "note": "حرف جر أساسي بمعنى 'على'، ويرتبط كذلك باسم المعبود حورس (حِر)."
+  },
+  {
+    "id": "bi_ms",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓄟",
+    "gardiner": "F31",
+    "trans": "ms",
+    "categoryAr": "ثلاثة جلود ثعالب مربوطة معاً",
+    "meanAr": "يلد / مولود / ينجب",
+    "meanEn": "give birth, be born",
+    "complements": "𓋴 (s)",
+    "example": {
+      "h": "𓄟:𓋴",
+      "trans": "ms",
+      "mean": "يلد / مولود"
+    },
+    "note": "موجود في أسماء الملوك العظام مثل: رمسيس (رع-مس-سو: رع ولده)، وتوت عنخ آمون."
+  },
+  {
+    "id": "bi_qd",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓐪",
+    "gardiner": "Aa28",
+    "trans": "qd",
+    "categoryAr": "مسطرين البناء (أداة تمليط)",
+    "meanAr": "يبني / يشيد / يصوغ / خُلق",
+    "meanEn": "build, form, character",
+    "complements": "𓂧 (d)",
+    "example": {
+      "h": "𓐪:𓂧",
+      "trans": "qd",
+      "mean": "يبني"
+    },
+    "note": "تدل على أعمال البناء والتشييد وتشكيل الخزف على العجلة."
+  },
+  {
+    "id": "bi_mi",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓏇",
+    "gardiner": "W19",
+    "trans": "mi",
+    "categoryAr": "إناء حليب محمول في سلة",
+    "meanAr": "مثل / كـ / شبيه بـ",
+    "meanEn": "like, as",
+    "complements": "𓇌 (y)",
+    "example": {
+      "h": "𓏇",
+      "trans": "mi",
+      "mean": "مثل / كأن"
+    },
+    "note": "أداة تشبيه رئيسية في النصوص الأدبية والحكم المصرية."
+  },
+  {
+    "id": "tri_nfr",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓄤",
+    "gardiner": "F35",
+    "trans": "nfr",
+    "categoryAr": "قلب وقصبة هوائية معاً",
+    "meanAr": "جميل / طيب / حسن / كامل",
+    "meanEn": "good, beautiful, perfect",
+    "complements": "𓆑 (f) و 𓂋 (r)",
+    "example": {
+      "h": "𓄤:𓆑*𓂋",
+      "trans": "nfr",
+      "mean": "جميل / حسن"
+    },
+    "note": "من أشهر الكلمات؛ دخلت في أسماء الملكات: نفرتيتي (الجميلة أتت)، ونفرتاري (جميلتهن)."
+  },
+  {
+    "id": "tri_anx",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓋹",
+    "gardiner": "S34",
+    "trans": "ʿnḫ",
+    "categoryAr": "عقدة سير الصندل (مفتاح الحياة)",
+    "meanAr": "حياة / يعيش / حي",
+    "meanEn": "life, live",
+    "complements": "𓈖 (n) و 𓐍 (ḫ)",
+    "example": {
+      "h": "𓋹*𓈖:𓐍",
+      "trans": "ʿnḫ",
+      "mean": "حياة / يعيش"
+    },
+    "note": "أشهر رمز مصري في العالم القديم؛ يُكتب به الدعاء الملكي: 'عنخ ودجا سنب' (حياة ورخاء وصحة)."
+  },
+  {
+    "id": "tri_htp",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓊵",
+    "gardiner": "R4",
+    "trans": "ḥtp",
+    "categoryAr": "مائدة قرابين فوقها رغيف خبز",
+    "meanAr": "يرضى / سلام / قربان / يستريح",
+    "meanEn": "peace, offering, be pleased",
+    "complements": "𓏏 (t) و 𓊪 (p)",
+    "example": {
+      "h": "𓊵:𓏏*𓊪",
+      "trans": "ḥtp",
+      "mean": "سلام / قربان"
+    },
+    "note": "أساس صيغة القرابين الجنائزية 'حتب دي نسوت'، وأسماء الملوك مثل: أمنحتب، وإمحوتب."
+  },
+  {
+    "id": "tri_wsr",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓄊",
+    "gardiner": "F12",
+    "trans": "wsr",
+    "categoryAr": "رأس وعنق حيوان من الكلبيات",
+    "meanAr": "قوي / ذو سطوة / عزيز / مقتدر",
+    "meanEn": "powerful, strong",
+    "complements": "𓋴 (s) و 𓂋 (r)",
+    "example": {
+      "h": "𓄊:𓋴*𓂋",
+      "trans": "wsr",
+      "mean": "قوي"
+    },
+    "note": "في اسم رمسيس الثاني الملكي: 'وسر ماعت رع' (قوة وعدالة رع)."
+  },
+  {
+    "id": "tri_xpr",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓆣",
+    "gardiner": "L1",
+    "trans": "ḫpr",
+    "categoryAr": "خنفساء الجعران (الروث)",
+    "meanAr": "يصبح / ينشأ / يتحول / يتجدد",
+    "meanEn": "become, transform, exist",
+    "complements": "𓊪 (p) و 𓂋 (r)",
+    "example": {
+      "h": "𓆣:𓂋",
+      "trans": "ḫpr",
+      "mean": "يتحول / يصبح"
+    },
+    "note": "رمز شمس الصباح (خبري) والتجدد والولادة المستمرة للكون."
+  },
+  {
+    "id": "tri_sdm",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓄔",
+    "gardiner": "F21",
+    "trans": "sḏm",
+    "categoryAr": "أذن ثور أو ماشية",
+    "meanAr": "يسمع / يصغي / يطيع",
+    "meanEn": "hear, listen, obey",
+    "complements": "𓅓 (m) وأحياناً 𓋴 (s)",
+    "example": {
+      "h": "𓄔*𓅓",
+      "trans": "sḏm",
+      "mean": "يسمع"
+    },
+    "note": "الفعل النموذجي القياسي في قواعد النحو المصري القديم (sḏm.f)."
+  },
+  {
+    "id": "tri_ntr",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓊹",
+    "gardiner": "R8",
+    "trans": "nṯr",
+    "categoryAr": "سارية معبد ملفوفة برباط قماشي",
+    "meanAr": "إله / معبود / مقدس",
+    "meanEn": "god, deity, divine",
+    "complements": "𓂋 (r)",
+    "example": {
+      "h": "𓊹:𓂋",
+      "trans": "nṯr",
+      "mean": "معبود / إله"
+    },
+    "note": "الكلمة الأساسية للدلالة على الإله أو القوة الإلهية، وجمعها 'نثرو' (الآلهة)."
+  },
+  {
+    "id": "tri_mAa",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓌳",
+    "gardiner": "U1",
+    "trans": "mꜣ",
+    "categoryAr": "منجل حصاد الحبوب",
+    "meanAr": "قيمة mꜣ؛ تدخل في mꜣꜣ «يرى»",
+    "meanEn": "mꜣ; in mꜣꜣ, see",
+    "complements": "𓄿 (ꜣ)",
+    "example": {
+      "h": "(𓌳:𓁹)*𓄿*𓄿",
+      "trans": "mꜣꜣ",
+      "mean": "يرى"
+    },
+    "note": "U1 قيمتها mꜣ، وليست وحدها mꜣʿ «حق». كتابة «حق» تحتاج بناء الكلمة المناسب؛ راجع U1 وU4 وAa11 في جاردنر."
+  },
+  {
+    "id": "tri_aHa",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓊢",
+    "gardiner": "P6",
+    "trans": "ʿḥꜥ",
+    "categoryAr": "صاري سفينة مع شراع مربوط",
+    "meanAr": "يقف / ينهض / ينتصب",
+    "meanEn": "stand up, rise",
+    "complements": "𓂝 (ʿ)",
+    "example": {
+      "h": "𓊢:𓂝",
+      "trans": "ʿḥꜥ",
+      "mean": "يقف"
+    },
+    "note": "فعل شهير يستخدم أيضاً كأداة مساعدة لبداية القصص والروايات (ʿḥʿ.n)."
+  },
+  {
+    "id": "tri_dwa",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓇼",
+    "gardiner": "N14",
+    "trans": "dwꜣ",
+    "categoryAr": "نجمة خماسية في السماء",
+    "meanAr": "يعبد / يسبح / يدعو / فجر",
+    "meanEn": "praise, adore, morning",
+    "complements": "𓅱 (w) و 𓄿 (3)",
+    "example": {
+      "h": "𓇼:𓅱*𓄿",
+      "trans": "dwꜣ",
+      "mean": "يسبح / يعبد"
+    },
+    "note": "تدل على الصلاة والترنيم للإله في الصباح الباكر؛ ومنها 'دوات' (عالم الموتى)."
+  },
+  {
+    "id": "tri_whm",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓄙",
+    "gardiner": "F25",
+    "trans": "wḥm",
+    "categoryAr": "ساق ثور أو بقر مع الحافر",
+    "meanAr": "يكرر / يعيد / يتجدد",
+    "meanEn": "repeat, again",
+    "complements": "𓅓 (m)",
+    "example": {
+      "h": "𓄙:𓅓",
+      "trans": "wḥm",
+      "mean": "يكرر"
+    },
+    "note": "يدخل في اللقب الشهير: 'وحم مسوت' (مكرر الولادات / عصر النهضة والتجديد)."
+  },
+  {
+    "id": "tri_xrw",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓊤",
+    "gardiner": "P8",
+    "trans": "ḫrw",
+    "categoryAr": "مجداف توجيه السفينة",
+    "meanAr": "صوت / ضجيج / نداء",
+    "meanEn": "voice, sound",
+    "complements": "𓅱 (w)",
+    "example": {
+      "h": "𓊤:𓅱",
+      "trans": "ḫrw",
+      "mean": "صوت"
+    },
+    "note": "في اللقب الجنائزي المشهور لكل متوفى بار: 'ماع خرو' (صادق الصوت / مبرأ)."
+  },
+  {
+    "id": "tri_hsb",
+    "type": "triliteral",
+    "typeAr": "ثلاثي الصوت",
+    "h": "𓐎",
+    "gardiner": "Aa2",
+    "trans": "ḥsb",
+    "categoryAr": "بثرة أو غدة؟ (تفسير غير مؤكد)",
+    "meanAr": "يحسب / يعد / يحصي",
+    "meanEn": "count, reckon",
+    "complements": "𓃀 (b)",
+    "example": {
+      "h": "𓐎*𓃀",
+      "trans": "ḥsb",
+      "mean": "يحسب"
+    },
+    "note": "Aa2 تُستعمل في ḥsb «يحسب/يحصي»؛ يوردها جاردنر في قائمة العلامات ضمن أمثلة العد والحساب."
+  },
+  {
+    "id": "tri_smr",
+    "type": "biliteral",
+    "typeAr": "ثنائي الصوت",
+    "h": "𓍋",
+    "gardiner": "U23",
+    "trans": "mr",
+    "categoryAr": "إزميل؟ (تفسير غير مؤكد)",
+    "meanAr": "قيمة mr؛ في smr «رفيق / جليس»",
+    "meanEn": "mr; in smr, companion or courtier",
+    "complements": "𓂋 (r)",
+    "example": {
+      "h": "𓋴*𓍋",
+      "trans": "smr",
+      "mean": "رفيق / جليس"
+    },
+    "note": "U23 قيمتها mr. في كلمة smr تسبقها علامة s؛ الرمز وحده لا يقرأ smr، وليس T13."
+  },
+  {
+    "id": "quad_spss",
+    "type": "word",
+    "typeAr": "كلمة / لقب، لا علامة صوتية رباعية",
+    "h": "𓀼",
+    "gardiner": "A51",
+    "trans": "šps",
+    "categoryAr": "نبيل جالس يحمل سوطًا",
+    "meanAr": "شريف / فخم / عظيم القدر / جليل",
+    "meanEn": "noble, august, splendid",
+    "complements": "𓊪 (p) و𓋴 (s)",
+    "example": {
+      "h": "𓀼",
+      "trans": "šps",
+      "mean": "شريف / نبيل"
+    },
+    "note": "A51 رمز/مخصص في الكلمات الدالة على النبل. ليست قراءة šps وحدها دليلًا على علامة رباعية."
+  },
+  {
+    "id": "quad_hwnw",
+    "type": "word",
+    "typeAr": "كلمة / لقب، لا علامة صوتية رباعية",
+    "h": "𓀔",
+    "gardiner": "A17",
+    "trans": "ḥwnw",
+    "categoryAr": "طفل جالس يضع يده إلى فمه (مخصص)",
+    "meanAr": "شاب / فتى / طفل يافع",
+    "meanEn": "youth, young man, child",
+    "complements": "هنا تُكتب حروف الكلمة، ويتبعها مخصص الطفل",
+    "example": {
+      "h": "𓎛*𓅱*𓈖*𓅱*𓀔",
+      "trans": "ḥwnw",
+      "mean": "شاب يافع"
+    },
+    "note": "A17 مخصص للطفل والشاب؛ لا تمثل وحدها حروف ḥwnw الأربعة. المثال يوضح كتابة صوتية تعليمية للكلمة مع المخصص."
+  },
+  {
+    "id": "quad_xkrw",
+    "type": "word",
+    "typeAr": "كلمة / لقب، لا علامة صوتية رباعية",
+    "h": "𓐬",
+    "gardiner": "Aa30",
+    "trans": "ẖkrw",
+    "categoryAr": "عنصر زخرفي أعلى الجدار",
+    "meanAr": "حلية / زينة / زركشة معمارية",
+    "meanEn": "ornament, frieze",
+    "complements": "𓂋 (r) و 𓅱 (w)",
+    "example": {
+      "h": "𓐬*𓅱",
+      "trans": "ẖkrw",
+      "mean": "حلي وزينة"
+    },
+    "note": "Aa30 عنصر زخرفي يُستعمل علامة كلمة أو مخصصًا للزينة؛ ليست Aa27، ولا نعد نهاية الجمع w جزءًا من قيمة رباعية واحدة."
+  },
+  {
+    "id": "quad_twtw",
+    "type": "word",
+    "typeAr": "كلمة / لقب، لا علامة صوتية رباعية",
+    "h": "𓀾",
+    "gardiner": "A53",
+    "trans": "twt",
+    "categoryAr": "مومياء منتصبة؛ مخصص في كلمة تمثال",
+    "meanAr": "تمثال / صورة / شبه ومطابقة",
+    "meanEn": "statue, likeness, image",
+    "complements": "𓏏 (t) و 𓅱 (w)",
+    "example": {
+      "h": "𓏏*𓅱*𓏏*𓀾",
+      "trans": "twt",
+      "mean": "تمثال / شبه"
+    },
+    "note": "A53 مخصص للمومياء والتمثال؛ twt «تمثال» كلمة، وليست قيمة رباعية ثابتة للرمز."
+  },
+  {
+    "id": "quad_nbty",
+    "type": "word",
+    "typeAr": "كلمة / لقب، لا علامة صوتية رباعية",
+    "h": "𓅒",
+    "gardiner": "G16",
+    "trans": "nbty",
+    "categoryAr": "نسر نخبت وكوبرا واجيت فوق سلتي nb",
+    "meanAr": "السيدتان / ربتي الوجهين البحري والقبلي",
+    "meanEn": "The Two Ladies (Nekhbet & Wadjet)",
+    "complements": "𓏏 (t) و 𓇌 (y)",
+    "example": {
+      "h": "𓅒",
+      "trans": "nbty",
+      "mean": "اللقب النبتي الملكي"
+    },
+    "note": "لقب ملكي مركب «السيدتان»، وليس أربعة أصوات لعلامة أبجدية واحدة."
+  },
+  {
+    "id": "quad_prhd",
+    "type": "word",
+    "typeAr": "كلمة / لقب، لا علامة صوتية رباعية",
+    "h": "𓉐𓌉",
+    "gardiner": "O1+T3",
+    "trans": "pr-ḥḏ",
+    "categoryAr": "مخطط منزل مع رأس صولجان",
+    "meanAr": "البيت الأبيض / الخزانة الملكية",
+    "meanEn": "treasury (White House)",
+    "complements": "𓂋 (r) و 𓆓 (ḏ)",
+    "example": {
+      "h": "𓉐𓌉",
+      "trans": "pr-ḥḏ",
+      "mean": "الخزانة الملكية"
+    },
+    "note": "مصطلح pr-ḥḏ «البيت الأبيض / الخزانة» مركب من علامتين؛ لا يُصنّف كعلامة صوتية رباعية واحدة."
+  }
+]

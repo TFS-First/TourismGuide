@@ -1,0 +1,34 @@
+{
+  "id": "lesson5",
+  "number": 5,
+  "titleAr": "الدرس الخامس",
+  "titleEn": "Lesson V",
+  "source": {
+    "book": "",
+    "edition": "",
+    "pages": ""
+  },
+  "grammar": {
+    "id": "lesson5",
+    "titleAr": "",
+    "titleEn": "",
+    "badges": [],
+    "rules": []
+  },
+  "vocabulary": {
+    "lesson": "الدرس الخامس",
+    "lessonEn": "Lesson V",
+    "words": []
+  },
+  "exercises": [],
+  "exercisePresentation": {
+    "kind": "reading",
+    "titleAr": "",
+    "titleEn": "",
+    "description": "",
+    "icon": "BookOpen"
+  },
+  "typingIcon": "📘",
+  "typingQuestions": [],
+  "quizQuestions": []
+}

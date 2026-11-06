@@ -1,0 +1,41 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+import { getDatasets,loadLessons,validateLessons,assembleSource,json,sha256,read } from '../scripts/project.mjs';
+const original=json('tests/fixtures/refactor-baseline.json');
+test('original content is unchanged outside the explicit source-reviewed grammar corrections',()=>{
+ const lessons=loadLessons().filter(l=>['lesson1','lesson2','lesson3'].includes(l.id));
+ const fullReview=json('tests/fixtures/full-content-review.json');
+ const undo=(target,change)=>{for(const key of change.path.slice(0,-1))target=target[key];const key=change.path.at(-1);if(change.removed){assert.equal(Object.hasOwn(target,key),false);target[key]=change.before;}else{assert.deepEqual(target[key],change.after,'Full review changed at '+change.file+':'+change.path.join('.'));if(change.added)delete target[key];else target[key]=change.before;}};
+ for(const change of fullReview.changes.filter(c=>c.file.startsWith('src/lessons/'))){const number=Number(change.file.match(/lesson-(\d+)/)[1]);undo(lessons.find(l=>l.number===number),change);}
+ // Undo the later inline-guide / glyph review before checking the earlier approved review.
+ const glyphReview=json('tests/fixtures/grammar-glyph-review.json');
+ for(const change of glyphReview.changes){let target=lessons.find(l=>l.id===change.lessonId);for(const key of change.path.slice(0,-1))target=target[key];const key=change.path.at(-1);if(change.removed){assert.equal(Object.hasOwn(target,key),false);target[key]=change.before;}else{assert.deepEqual(target[key],change.after,'Reviewed value changed at '+change.path.join('.'));if(change.added)delete target[key];else target[key]=change.before;}}
+ // Reverse only the explicit, source-reviewed corrections; never replace the baseline hashes.
+ const reviewed=json('tests/fixtures/lesson-03-reviewed-changes.json');
+ const lesson3=lessons.find(l=>l.id==='lesson3');
+ for(const change of reviewed.changes){let target=lesson3;for(const key of change.path.slice(0,-1))target=target[key];const key=change.path.at(-1);assert.deepEqual(target[key],change.after,'Reviewed value changed at '+change.path.join('.'));if(change.added)delete target[key];else target[key]=change.before;}
+ const datasets=getDatasets(lessons);
+ const sharedNames={'src/data/shared/hieroglyphs.json':'hieroglyphsData','src/data/shared/phonograms.json':'phonogramsData','src/data/shared/comprehensive-quiz.json':'comprehensiveQuizData'};
+ for(const change of fullReview.changes.filter(c=>sharedNames[c.file]))undo(datasets[sharedNames[change.file]],change);
+ for(const change of reviewed.sharedQuizChanges){let target=datasets.comprehensiveQuizData;for(const key of change.path.slice(0,-1))target=target[key];const key=change.path.at(-1);assert.equal(target[key],change.after);target[key]=change.before;}
+ for(const [name,value] of Object.entries(datasets)) assert.equal(sha256(value),original.datasets[name].sha256,name+' differs from the approved content.');
+});
+test('hieroglyph parser and Arabic/Latin search direction retain their behavior',()=>{
+ const context={};vm.createContext(context);vm.runInContext(read('src/lib/hieroglyphs.js')+'\n'+read('src/lib/search.js'),context);
+ assert.equal(vm.runInContext("searchTextDirection('نهر')",context),'rtl');assert.equal(vm.runInContext("searchTextDirection('sdm')",context),'ltr');assert.equal(vm.runInContext("searchTextDirection('')",context),'rtl');
+ const parsed=JSON.parse(vm.runInContext("JSON.stringify(parseHieroglyphWord('𓅓*𓋴*𓎛*𓆊'))",context));assert.equal(parsed.type,'row');assert.equal(parsed.items.length,4);
+ const stacked=JSON.parse(vm.runInContext("JSON.stringify(parseHieroglyphWord('(𓈘:𓈘:𓈘)'))",context));assert.equal(stacked.type,'stack');assert.equal(stacked.items.length,3);
+});
+test('adding forty lessons aggregates data without changing shared renderers or writing into source files',()=>{
+ const lessons=structuredClone(loadLessons());
+ for(let n=Math.max(...lessons.map(l=>l.number))+1;n<=40;n++){const original=structuredClone(lessons[0]);const id='lesson'+n;original.id=id;original.number=n;original.titleAr='الدرس '+n;original.titleEn='Lesson '+n;original.grammar={id,titleAr:original.titleAr,titleEn:original.titleEn,rules:[],badges:[]};original.vocabulary={lesson:original.titleAr,lessonEn:original.titleEn,words:[]};original.exercises=[];original.typingQuestions=[];original.quizQuestions=[];lessons.push(original);}
+ const datasets=getDatasets(lessons);assert.equal(datasets.grammarData.length,40);assert.equal(datasets.vocabularyData.length,40);assert.equal(Object.keys(datasets.exercisesData).length,40);assert.match(assembleSource(lessons),/lesson40/);
+});
+
+test('invalid lesson identities, links and unsupported exercise kinds are rejected before publication',()=>{
+ const duplicateNumber=structuredClone(loadLessons());duplicateNumber[1].number=duplicateNumber[0].number;assert.throws(()=>validateLessons(duplicateNumber),/lesson number/);
+ const missingAnchor=structuredClone(loadLessons());missingAnchor[0].grammar.badges[0].id='missing-rule';assert.throws(()=>validateLessons(missingAnchor),/missing rule/);
+ const invalidKind=structuredClone(loadLessons());invalidKind[0].exercisePresentation.kind='unknown';assert.throws(()=>validateLessons(invalidKind),/Unsupported exercise kind/);
+ const duplicateQuestion=structuredClone(loadLessons());duplicateQuestion[1].typingQuestions[0].id=String(duplicateQuestion[0].typingQuestions[0].id);assert.throws(()=>validateLessons(duplicateQuestion),/typing question ID/);
+});
