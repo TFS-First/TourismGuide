@@ -27,6 +27,22 @@ body { overflow-x: clip; }
 .course-fold > summary:focus-visible { outline: 2px solid #227b82; outline-offset: -3px; }
 .course-fold-body { padding: .25rem 1.25rem 1.25rem; }
 .course-fold-body > :first-child { margin-top: 0; }
+.course-self-test { direction: rtl; text-align: right; margin-top: 1.5rem; padding: clamp(1rem, 3vw, 1.5rem); border: 1px solid #d8c9aa; border-radius: 1rem; background: #fffdfa; color: #243047; font-family: Cairo, sans-serif; }
+.course-self-test h4 { margin: 0 0 .25rem; font-size: clamp(1.05rem, 2vw, 1.3rem); font-weight: 800; }
+.course-question-hint { margin: 0 0 1rem; color: #64748b; font-size: .9rem; }
+.course-question-card { margin-top: .75rem; padding: 1rem; border: 1px solid #e7decc; border-radius: .8rem; background: white; }
+.course-question-text { margin: 0 0 .75rem; font-weight: 700; line-height: 1.8; }
+.course-truth-choices { display: flex; flex-wrap: wrap; gap: .5rem; }
+.course-truth-choices button { min-width: 5rem; padding: .45rem .9rem; border: 1px solid #cbbd9f; border-radius: .6rem; background: #faf5e9; font-weight: 700; }
+.course-truth-choices button[aria-pressed="true"] { border-color: #227b82; background: #dff3f0; color: #135d63; }
+.course-truth-choices button:focus-visible, .course-answer summary:focus-visible { outline: 2px solid #227b82; outline-offset: 2px; }
+.course-question-feedback:empty { display: none; }
+.course-question-feedback { margin: .75rem 0 0; padding: .7rem; border-radius: .6rem; background: #fff0ef; color: #8a2434; line-height: 1.8; }
+.course-question-feedback[data-correct="true"] { background: #e6f5ed; color: #166043; }
+.course-essay-section { background: #f8f4ec; }
+.course-answer { margin-top: .75rem; border-top: 1px solid #e7decc; padding-top: .75rem; }
+.course-answer summary { width: fit-content; cursor: pointer; color: #12666d; font-weight: 800; }
+.course-answer p { margin: .75rem 0 0; line-height: 2; white-space: pre-line; }
 .subject-card { padding: 1.15rem !important; border-width: 1px !important; border-radius: 1.2rem !important; }
 .subject-card h4 { font-size: 1.05rem !important; line-height: 1.65; }
 .subject-card p { line-height: 1.8 !important; }
