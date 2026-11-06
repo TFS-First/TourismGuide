@@ -23,3 +23,18 @@ for (const page of pages) {
   }
 }
 console.log(`Checked ${count} local page and asset links across ${pages.length} pages.`);
+
+for (const page of ['index.html', 'portal.html', 'ancient-egyptian-language/index.html',
+  'history/index.html', 'graeco-roman/index.html', 'islamic-history/index.html',
+  'modern-history/index.html']) {
+  const html = fs.readFileSync(path.join(root, page), 'utf8');
+  const meta = name => html.match(new RegExp(`<meta (?:property|name)="${name}" content="([^"]+)"`))?.[1];
+  const expectedUrl = `https://tfs-first.github.io/TourismGuide/${page === 'index.html' || page === 'portal.html' ? '' : page.replace(/index\.html$/, '')}`;
+  assert.equal(meta('og:url'), expectedUrl, `${page}: incorrect social URL`);
+  assert(meta('og:title') && meta('og:description'), `${page}: missing social title or description`);
+  const image = meta('og:image');
+  assert(image?.startsWith('https://tfs-first.github.io/TourismGuide/assets/'), `${page}: missing absolute social image`);
+  assert(fs.existsSync(path.join(root, new URL(image).pathname.replace('/TourismGuide/', ''))), `${page}: social image is missing`);
+  assert.equal(meta('twitter:image'), image, `${page}: social image mismatch`);
+}
+console.log('Checked social sharing metadata for the portal and all five subjects.');
